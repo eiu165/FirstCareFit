@@ -9,19 +9,19 @@ namespace FirstCareFit.Web
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Content/Scripts/jquery-{version}.js"));
+                        "~/Content/Scripts/Vendor/jquery-{version}.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
-                        "~/Content/Scripts/jquery.validate*"));
+                        "~/Content/Scripts/Vendor/jquery.validate*"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Content/Scripts/modernizr-*"));
+                        "~/Content/Scripts/Vendor/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                      "~/Content/Scripts/bootstrap.js",
-                      "~/Content/Scripts/respond.js"));
+                      "~/Content/Scripts/Vendor/bootstrap.js",
+                      "~/Content/Scripts/Vendor/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/Styles/Vendor/Bootstrap/bootstrap.css",
