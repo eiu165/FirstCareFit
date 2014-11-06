@@ -1,0 +1,152 @@
+@media (max-width: 991px) {
+
+	.col-sm-1, 
+	.col-sm-2, 
+	.col-sm-3,
+	.col-sm-4,
+	.col-sm-5,
+	.col-sm-6,
+	.col-sm-7,
+	.col-sm-8,
+	.col-sm-9,
+	.col-sm-10,
+	.col-sm-11,
+	.col-sm-12 {
+		margin-bottom: $elements-gap / 2;
+	}
+
+	.si-desc {
+		margin: 30px -15px -15px;
+	}
+
+	.header-desc span {
+		width: 50%;
+	}
+
+	.team-member-big:hover .team-member-overlay h5 {
+		bottom: 55%;
+	}
+
+	.team-member-big p {
+		display: none;
+	}
+
+	.team-member-big .team-member-overlay .social-icons a { 
+		height: 25px; 
+		width: 25px; 
+		padding: 6px; 
+	}
+
+	.team-member-big, .team-member-small {
+		margin-bottom: 40px;
+	}
+
+	.devices {
+		height: 300px;
+	}
+
+	.portfolio-item {
+		width: 33.333%;
+	}
+
+	.sidebar {
+		margin-top: 30px;
+	}
+
+	.jp-volume {
+		width: 20%;
+	}
+
+	.jp-volume-bar {
+		width: 35%;
+	}
+
+	.comment-container .avatar img {
+		width: 45px;
+	}
+
+	#page-header {
+		.page-title h1 span::after, 
+		.page-title h2 span::after, 
+		.page-title h3 span::after,  
+		.page-title h4 span::after, 
+		.page-title h5 span::after, 
+		.page-title h6 span::after {
+			border: none;
+		}	
+
+		.header-desc span {
+			width: 100%;
+		}
+	}
+
+	.bottom-gap, .resp-no-gap {
+		margin-bottom: 0px;
+	}
+
+	.home-text .big-text {
+		font-size: $home-big-text-font-size / 1.5;
+		line-height: $home-big-text-line-height / 1.5;
+	}
+
+	.trigger-fixed {
+		position: absolute !important;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.col-sm-1, .col-xs-1,
+	.col-sm-2, .col-xs-2, 
+	.col-sm-3, .col-xs-3,
+	.col-sm-4, .col-xs-4,
+	.col-sm-5, .col-xs-5,
+	.col-sm-6, .col-xs-6,
+	.col-sm-7, .col-xs-7,
+	.col-sm-8, .col-xs-8,
+	.col-sm-9, .col-xs-9,
+	.col-sm-10, .col-xs-10,
+	.col-sm-11, .col-xs-11,
+	.col-sm-12, .col-xs-12, {
+		margin-bottom: $elements-gap / 2;
+	}
+
+	.story-item-content {
+		width: 80%;
+	}
+
+	.si-year::after {
+		display: none;
+	}
+
+	.story-item:nth-child(even) .story-item-content .si-year {
+		left: -30px;
+	}
+
+	.story-item:nth-child(odd) .story-item-content .si-year {
+		right: -30px;
+	}
+
+	.si-desc {
+		margin: 15px -15px -15px;
+	}
+
+	.bottom-gap, .resp-no-gap {
+		margin-bottom: 0px;
+	}
+
+	.portfolio-item {
+		width: 50%;
+	}
+
+	.goto-blog .btn {
+		width: 50%;
+	}
+
+	.home-text .big-text {
+		font-size: $home-big-text-font-size / 2;
+		line-height: $home-big-text-line-height / 2;
+	}
+
+}

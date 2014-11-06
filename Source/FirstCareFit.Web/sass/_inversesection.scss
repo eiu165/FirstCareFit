@@ -1,0 +1,143 @@
+/* SECTION INVERSE */
+.section-inverse {
+	background: $section-inverse-bg;
+	color: $section-inverse-color;
+
+	// BASIC COLORS
+	.small-header, 
+	.count-number, 
+	.si-year, 
+	.si-header,
+	h1,
+	h2, 
+	h3, 
+	h4, h4 a, 
+	h5, 
+	h6,
+	.service-header,
+	.btn-link,
+	.flex-direction-nav a,
+	blockquote p,
+	.tweet_text,
+	.small-header span,
+	.project-info span small,
+	.project-nav ul li a:hover,
+	a,
+	input, textarea,
+	.social-icons a:hover,
+	.btn:hover, 
+	.btn:focus, 
+	.btn:active, 
+	.btn.active, 
+	.btn.disabled, 
+	.btn[disabled], {
+		color: $section-inverse-color !important;
+	}
+	
+	.count-number {
+		border-bottom: 2px solid $section-inverse-color !important;
+	}
+
+	.flex-control-paging li a.flex-active, 
+	.pt-header a {
+		background: $section-inverse-color !important;
+	}
+
+	.devices-nav li a i {
+		border: 2px solid $section-inverse-color !important;
+	}
+
+	// SECONDARY COLORS
+	.count-subject, 
+	.si-desc, 
+	.si-date,
+	.section-header-desc,
+	.service-desc,
+	.service-desc::after, 
+	blockquote p::before,
+	blockquote p::after,
+	blockquote small .occupation,
+	.testimonial blockquote small::after,
+	.service-desc::after,
+	.header-desc span,
+	.post-info, 
+	.goto-blog::before,
+	.tweet_time,
+	.project-nav ul li a,
+	a:hover {
+		color: $section-inverse-color-sec !important;
+	}
+
+	.section-header h1 span,
+	.section-header h2 span,
+	.section-header h4 span,
+	.section-header h3 span,
+	.section-header h5 span,
+	.section-header h6 span	 {
+
+		&::before, &::after {
+			border-bottom: 2px solid $section-inverse-color-sec !important;
+		}
+	}
+
+	.service-desc::before,
+	.testimonial blockquote small::before {
+		border-bottom: 2px solid $section-inverse-color-sec !important;
+	}
+
+	.flex-control-paging li a,
+	.btn:hover, 
+	.btn:focus, 
+	.btn:active, 
+	.btn.active, 
+	.btn.disabled, 
+	.btn[disabled],
+	.pt-header a:hover {
+		background: $section-inverse-color-sec !important;
+	}
+
+	.goto-blog {
+		border: 2px solid $section-inverse-color-sec !important;
+	}
+
+	// ACCENT COLORS
+	.count-header, 
+	.accent-color,
+	.service-icon, 
+	blockquote small,
+	.read-more-btn .btn-link,
+	.tweet_text::before,
+	.icon-box i,
+	.devices-nav .flex-active a {
+		color: $section-inverse-color-accent !important;
+	}
+
+	.si-year::after, .pt-header .pt-popular {
+		background: $section-inverse-color-accent !important;
+	}
+
+	.small-header span {
+		background: $section-inverse-bg;
+	}
+
+	.devices-nav .flex-active a i, 
+	.devices-nav .flex-active a:hover i {
+		border: 2px solid $section-inverse-color-accent !important;
+	}
+
+	// NOT INVERSE
+	// BODY
+	.pricing-table, .tab, .panel-group,
+	.social-icons a {
+		color: $default-text-color !important;
+	}
+
+	.pt-header a, .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus,
+	.panel-heading a {
+		color: $secondary-color !important;
+	}
+
+	.btn.btn-link:hover {
+		background: transparent !important;
+	}
+}

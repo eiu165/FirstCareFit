@@ -1,0 +1,226 @@
+// VARIABLES
+
+// BASIC SETTINGS ------
+
+//FONTS ---
+$primary-font-family: "Open Sans", Arial, Helvetica, sans-serif;
+$primary-font-size: 14px;
+$primary-font-line-height: 1.6em;
+$secondary-font-family: "Montserrat", sans-serif;
+$h-font-family: $secondary-font-family;
+$h1-size: 42px;
+$h2-size: 32px;
+$h3-size: 24px;
+$h4-size: 20px;
+$h5-size: 16px;
+$h6-size: 13px;
+
+//COLORS ---
+$primary-color: #fff;
+$secondary-color: #191919;
+$accent-color: #6DBE4B;
+
+$body-background-color: $primary-color;
+$default-text-color: #666666;
+$default-link-color: #191919;
+$default-link-color-hover: #666666;
+$h-color: #191919;
+
+//SECTIONS
+$elements-gap: 100px;
+$section-bg-diff: darken($body-background-color, 5%);
+$section-inverse-bg: $secondary-color;
+$section-inverse-color: #fff;
+$section-inverse-color-sec: darken($section-inverse-color, 30%);
+$section-inverse-color-accent: $accent-color;
+
+//PAGE HEADER
+$page-header-color: #fff;
+$page-header-height: 350px;
+
+//FOOTER 
+$footer-bg-color: #191919;
+$footer-color: #fff;
+
+//HOME
+$home-text-color: #fff;
+$home-small-text-color: darken($home-text-color, 10%);
+
+// MAIN NAVIGATION
+$main-nav-background-color: $body-background-color;
+$main-nav-text-color: #191919;
+$main-nav-text-color-hover: $default-link-color-hover;
+
+
+
+
+
+
+// ADVANCED SETTINGS ------
+// LOADER
+$loader-bg-color: $primary-color;
+$loader-spinner-color: $secondary-color;
+$loader-spinner-size: 40px;
+$loader-spinner-circle-size: 7px;
+
+//HOME
+$home-height: 100%;
+$home-logo-top-gap: 100px;
+$home-big-text-font-family: $secondary-font-family;
+$home-big-text-font-size: 120px;
+$home-big-text-line-height: 100px;
+$home-text-top-gap: 35%;
+$home-big-text-width: 100%;
+$home-small-text-width: 100%;
+$home-small-text-font: 14px $secondary-font-family;
+$home-header-text-font: italic 700 28px $primary-font-family;
+$home-readmore-width: 150px;
+$home-radmore-bottom-gap: 70px;
+
+//MAIN NAVIGATION
+$main-nav-height: 70px;
+$main-nav-font-family: $secondary-font-family;
+$main-nav-font-size: 14px;
+$main-nav-menu-items-gap: 25px;
+$main-nav-submenu-font-size: 14px;
+$main-nav-submenu-bg: $secondary-color;
+$main-nav-submenu-width: 180px;
+
+//NAVIGATION SIDEBAR
+$sidebar-nav-background: $secondary-color;
+$sidebar-nav-text-color: $primary-color;
+$sidebar-nav-text-color-hover: $primary-color;
+$sidebar-nav-width: 300px;
+
+//HEADER
+$section-header-color: $secondary-color;
+$section-header-font-family: $secondary-font-family;
+$section-header-line-height-color: 2px solid contrast-color($section-header-color, darken($section-header-color, 50%), lighten($section-header-color, 60%), 50%);
+$section-header-line-width: 50px;
+$section-header-desc-font: 300 16px/19px $primary-font-family;
+$section-header-desc-width: 35%;
+$section-header-desc-color: $default-text-color;
+
+//SMALL HEADER
+$small-header-font: 18px $secondary-font-family;
+$small-header-color: $secondary-color;
+$small-header-line-height-color: 2px solid contrast-color($section-header-color, darken($section-header-color, 50%), lighten($section-header-color, 60%), 50%);
+$small-header-bg: $body-background-color;
+
+//PARAGRAPHS
+$p-big-desc-font: 28px/30px $secondary-font-family;
+
+//BLOG
+$blog-title-color: $secondary-color;
+$blog-post-info-color: lighten($secondary-color, 60%);
+$blog-readmore-btn-color: $accent-color;
+$goto-blog-line-color: contrast-color($body-background-color, darken($body-background-color, 25%), lighten($body-background-color, 10%), 50%);
+$blog-category-icon-bg-color: $accent-color;
+$blog-category-icon-color: #fff;
+
+//SHORTCODES
+//BUTTONS
+$btn-font-family: $secondary-font-family;
+$btn-font-size: 13px;
+$btn-text-color: #fff;
+$btn-text-color-hover: $primary-color;
+$btn-bg-color-hover: $secondary-color;
+$btn-primary-bg-color: $accent-color;
+$btn-warning-bg-color: #faa732;
+$btn-success-bg-color: #5bb75b;
+$btn-info-bg-color: #49afcd;
+$btn-danger-bg-color: #da4f49;
+$btn-link-color: $secondary-color;
+$btn-link-color-hover: $default-link-color-hover;
+$btn-inverse-bg-color: #191919;
+$btn-inverse-bg-color-hover: #191919;
+
+//STORY
+$story-timeline-color: darken($primary-color, 15%);
+$story-timeline-circle-size: 12px; //even number
+$story-item-circle-size: 12px; //even number
+$story-item-circle-color: $accent-color;
+$story-item-bg-color: darken($primary-color, 10%);
+$story-item-header-font: 14px $secondary-font-family;
+$story-item-year-font: 16px $secondary-font-family;
+$story-item-line-arrow-color: contrast-color($story-item-bg-color, darken($story-item-bg-color, 10%), lighten($story-item-bg-color, 30%), 50%);
+
+//COUNTER
+$counter-icon-size: 24px;
+$counter-icon-color: $accent-color;
+$counter-number-font: 74px $secondary-font-family;
+$counter-number-color: $secondary-color;
+$counter-subject-font: 14px $secondary-font-family;
+
+//TEAM
+$team-name-color: $secondary-color;
+$team-name-hover-bg-color: $secondary-color;
+$team-name-hover-name-color: $primary-color;
+$team-name-hover-desc-color: darken($primary-color, 30%);
+$team-name-hover-social-bg-color: $primary-color;
+
+//SERVICES
+$service-bg-color: darken($primary-color, 5%);
+$service-icon-font-size: 48px;
+$service-icon-color: $accent-color;
+$service-header-font: 18px $secondary-font-family;
+$service-header-color: contrast-color($service-bg-color, $secondary-color, white, 50%);
+$service-arrow-line-color: contrast-color($service-bg-color, darken($service-bg-color, 10%), lighten($service-bg-color, 30%), 50%);
+$service-desc-color: $default-text-color;
+$service-read-more-color: $secondary-color;
+
+// BLOCKQUOTE/TESTIMONIALS
+$quote-font: 300 20px/26px $primary-font-family;
+$quote-text-color: $secondary-color;
+$quote-author-font: 16px $secondary-font-family;
+$quote-author-text-color: $accent-color;
+$quote-occupation-font: 13px $secondary-font-family;
+$quote-occupation-text-color: lighten($secondary-color, 50%);
+$testimonial-line-color: lighten($secondary-color, 70%);
+
+//PORTFOLIO
+$portfolio-hover-title-color: #fff;
+$portfolio-hover-bg-color: rgba(0,0,0,0.7);
+$portoflio-hover-category-color: #fff;
+$portfolio-active-bg-color: rgba($accent-color, 0.5);
+
+//TWITTER
+$twitter-text-color: $secondary-color;
+$twitter-text-font: 300 20px/26px $primary-font-family;
+$twitter-time-color: lighten($secondary-color, 50%);
+$twitter-time-font: 13px $secondary-font-family;
+
+//SOCIAL ICONS
+$social-icon-bg-color: lighten($secondary-color, 70%);
+$social-icon-color: $primary-color;
+
+//PRICING TABLES
+$pt-header-bg-color: $secondary-color;
+$pt-header-text-color: $primary-color;
+$pt-desc-text-color: contrast-color($pt-header-bg-color, darken($pt-header-bg-color, 20%), lighten($pt-header-bg-color, 30%), 50%);
+$pt-title-font: 20px $secondary-font-family;
+$pt-price-font: 76px/86px $secondary-font-family;
+$pt-features-bg-color: darken($primary-color, 5%);
+
+//TABS
+$tabs-header-font: 14px $secondary-font-family;
+$tabs-bg-color: darken($primary-color, 5%);
+
+//TOOGLE / ACCORDION
+$toogle-header-font: 14px $secondary-font-family;
+$toogle-bg-color: darken($primary-color, 5%);
+
+//PROGRESS BAR
+$progress-bg-color: darken($primary-color, 5%);
+$progress-skill-bg-color: $accent-color;
+$progress-skill-text-color: #fff;
+
+//ALERTS
+$alert-warning-bg-color: #F3E8AB;
+$alert-danger-bg-color: #f2dede;
+$alert-success-bg-color: #dff0d8;
+$alert-info-bg-color: #d9edf7;
+
+//ICON BOX
+$icon-box-icon-size: 40px;
+$icon-box-icon-color: $accent-color;
