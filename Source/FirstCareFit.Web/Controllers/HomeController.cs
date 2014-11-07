@@ -13,7 +13,7 @@ namespace FirstCareFit.Web.Controllers
     {
         public ActionResult Index()
         {
-            return Redirect(Url.Content("~/index.html"));
+            return View();
        }
 
         public ActionResult About()
