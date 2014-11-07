@@ -6,11 +6,14 @@ using System.Web.Mvc;
 
 namespace FirstCareFit.Web.Controllers
 {
+
+    
+   
     public class HomeController : Controller
     {
         public ActionResult Index()
-       {
-          return View();
+        {
+            return Redirect(Url.Content("~/index.html"));
        }
 
         public ActionResult About()
