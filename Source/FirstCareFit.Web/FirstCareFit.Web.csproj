@@ -330,7 +330,6 @@
     <Content Include="Styles\Vendor\Bootstrap\_bootstrap-mincer.scss" />
     <Content Include="Styles\Vendor\Bootstrap\_bootstrap-compass.scss" />
     <Content Include="Styles\Vendor\Bootstrap\bootstrap.scss" />
-    <Content Include="css\.DS_Store" />
     <Content Include="js\.DS_Store" />
     <Content Include="sass\style.scss" />
     <Content Include="sass\variables settings\_variables-basic-colors.scss" />
