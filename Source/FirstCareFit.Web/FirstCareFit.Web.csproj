@@ -179,6 +179,7 @@
     <Content Include="img\bio-guard-chart.JPG" />
     <Content Include="img\fit-lg-logo.jpg" />
     <Content Include="img\fit-sm-logo.jpg" />
+    <Content Include="img\fit-tiny-logo.png" />
     <Content Include="img\Imnisense-chart.JPG" />
     <Content Include="img\Imnisense-live-chart.JPG" />
     <Content Include="img\impact-HRV-HR-BR-TEMP.png" />
