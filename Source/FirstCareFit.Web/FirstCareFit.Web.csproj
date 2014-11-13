@@ -341,7 +341,6 @@
     <Content Include="Styles\Vendor\Bootstrap\_bootstrap-mincer.scss" />
     <Content Include="Styles\Vendor\Bootstrap\_bootstrap-compass.scss" />
     <Content Include="Styles\Vendor\Bootstrap\bootstrap.scss" />
-    <Content Include="sass\style.scss" />
     <Content Include="sass\variables settings\_variables-basic-colors.scss" />
     <Content Include="sass\variables settings\_variables-dark-color.scss" />
     <Content Include="sass\_inversesection.scss" />
