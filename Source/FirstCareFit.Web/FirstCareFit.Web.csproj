@@ -173,9 +173,19 @@
   <ItemGroup>
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\dasky.min.css" />
+    <Content Include="css\dasky.source.css" />
     <Content Include="css\flexslider.css" />
     <Content Include="css\font-awesome.css" />
     <Content Include="css\font-awesome.min.css" />
+    <Content Include="css\images\next.png" />
+    <Content Include="css\images\pause.png" />
+    <Content Include="css\images\play.png" />
+    <Content Include="css\images\prev.png" />
+    <Content Include="img\1.png" />
+    <Content Include="img\2.png" />
+    <Content Include="img\3.png" />
+    <Content Include="img\4.png" />
     <Content Include="img\Automatic-Fitness-Test.png" />
     <Content Include="img\bio-guard-chart.JPG" />
     <Content Include="img\bio-harness_shirts.png" />
@@ -194,11 +204,17 @@
     <Content Include="img\omnisense-software.png" />
     <Content Include="img\Omnisense_Deployment_Tool.png" />
     <Content Include="img\otavio-up.jpg" />
+    <Content Include="img\pause.png" />
+    <Content Include="img\play.png" />
     <Content Include="img\progress-chart.JPG" />
     <Content Include="img\PSM-trainingECHO.png" />
     <Content Include="img\pullups-bg.jpg" />
     <Content Include="img\Reporting.png" />
     <Content Include="img\soccer-girl-norm-chart.JPG" />
+    <Content Include="Workout.html" />
+    <Content Include="js\dasky.js" />
+    <Content Include="js\dasky.min.js" />
+    <Content Include="js\jmpress.min.js" />
     <Content Include="Styles\img\close.png" />
     <Content Include="Styles\css\lightbox.css" />
     <Content Include="Styles\css\socialcount.min.css" />
@@ -206,9 +222,6 @@
     <Content Include="img\avatar%402x.png" />
     <Content Include="img\avatar.png" />
     <Content Include="img\bg-pattern.png" />
-    <Content Include="img\client1.png" />
-    <Content Include="img\client2.png" />
-    <Content Include="img\client3.png" />
     <Content Include="img\close.png" />
     <Content Include="img\laptop.png" />
     <Content Include="img\loading.gif" />
@@ -388,7 +401,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Index.html" />
+    <Content Include="old-Index.html" />
     <Content Include="Content\Scripts\Vendor\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
