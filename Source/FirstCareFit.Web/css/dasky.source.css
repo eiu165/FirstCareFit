@@ -250,7 +250,7 @@
 	transition: all 1s ease-in-out .5s;
 }
 .dsk-supported .dsk-content>img,
-.dsk-supported .dsk-content>a
+.dsk-supported .dsk-content>iframe
  {
 	max-width: 256px;
 	max-height: 300px;
