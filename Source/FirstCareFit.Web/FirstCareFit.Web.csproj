@@ -182,7 +182,9 @@
     <Content Include="css\images\pause.png" />
     <Content Include="css\images\play.png" />
     <Content Include="css\images\prev.png" />
+    <Content Include="img\Automatic-Fitness-Test - Copy.png" />
     <Content Include="img\Automatic-Fitness-Test.png" />
+    <Content Include="img\bio-chart-person-01.jpg" />
     <Content Include="img\bio-guard-chart.JPG" />
     <Content Include="img\bio-harness_shirts.png" />
     <Content Include="img\Bioharness3.png" />
