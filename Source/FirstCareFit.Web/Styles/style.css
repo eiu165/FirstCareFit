@@ -162,9 +162,9 @@ header { background: #191919; }
 #home .logo-home { text-align: center; padding: 100px 0 100px 0; }
 #home .home-bg-container { height: 100%; width: 100%; position: absolute; z-index: 1; background-size: cover; }
 #home .overlay { position: relative; height: 100%; z-index: 2; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(80%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.4))); background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0.4) 100%); background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0.4) 100%); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0.4) 100%); background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0.4) 100%); }
-#home .home-more { position: absolute; bottom: 70px; width: 100%; -webkit-animation: read-more 2s infinite; /* Safari 4+ */ -moz-animation: read-more 2s infinite; /* Fx 5+ */ -o-animation: read-more 2s infinite; /* Opera 12+ */ animation: read-more 2s infinite; /* IE 10+ */ }
-#home .home-more .btn { margin: 0 auto; width: 150px; }
-#home .home-more .btn::after { font-family: FontAwesome; content: "\f103"; padding-left: 10px; }
+#home .home-more, #about .home-more  { position: absolute; bottom: 70px; width: 100%; -webkit-animation: read-more 2s infinite; /* Safari 4+ */ -moz-animation: read-more 2s infinite; /* Fx 5+ */ -o-animation: read-more 2s infinite; /* Opera 12+ */ animation: read-more 2s infinite; /* IE 10+ */ }
+#home .home-more .btn, #about .home-more .btn { margin: 0 auto; width: 150px; }
+#home .home-more .btn::after, #about .home-more .btn::after { font-family: FontAwesome; content: "\f103"; padding-left: 10px; }
 
 .home-content { position: relative; height: 100%; z-index: 3; }
 
@@ -282,8 +282,11 @@ header { background: #191919; }
 .page-content { background: url(../img/map-bg.jpg) no-repeat center top white; background-position: 50% -300px; }
 .page-content .section { background: none; }
 
-/* ABOUT US 
-.about-text {
+/* ABOUT US */
+#about {
+    text-align: center;
+} 
+/*.about-text {
     background: url(../img/mat-bg.jpg) no-repeat center top white;
     position: relative;
 }*/

@@ -182,13 +182,16 @@
     <Content Include="css\images\pause.png" />
     <Content Include="css\images\play.png" />
     <Content Include="css\images\prev.png" />
+    <Content Include="img\analyze-compare.jpg" />
     <Content Include="img\Automatic-Fitness-Test - Copy.png" />
     <Content Include="img\Automatic-Fitness-Test.png" />
+    <Content Include="img\bio-chart-oscar.jpg" />
     <Content Include="img\bio-chart-person-01.jpg" />
     <Content Include="img\bio-guard-chart.JPG" />
     <Content Include="img\bio-harness_shirts.png" />
     <Content Include="img\Bioharness3.png" />
     <Content Include="img\coach050athletes.png" />
+    <Content Include="img\down.png" />
     <Content Include="img\fit-lg-logo.jpg" />
     <Content Include="img\fit-sm-logo.jpg" />
     <Content Include="img\fit-tiny-logo.png" />
@@ -206,6 +209,7 @@
     <Content Include="img\Omnisense_Deployment_Tool.png" />
     <Content Include="img\otavio-up.jpg" />
     <Content Include="img\pause.png" />
+    <Content Include="img\physio-normative.jpg" />
     <Content Include="img\play.png" />
     <Content Include="img\progress-chart.JPG" />
     <Content Include="img\PSM-trainingECHO.png" />
@@ -216,6 +220,12 @@
     <Content Include="img\shoulder-press.jpg" />
     <Content Include="img\soccer-girl-norm-chart.JPG" />
     <Content Include="img\press-up.jpg" />
+    <Content Include="img\step-goal00.jpg" />
+    <Content Include="img\steps-photo02.png" />
+    <Content Include="img\steps-photo03.png" />
+    <Content Include="img\steps-photo04.png" />
+    <Content Include="img\steps-photo05.png" />
+    <Content Include="img\up.png" />
     <Content Include="Workout.html" />
     <Content Include="js\dasky.js" />
     <Content Include="js\dasky.min.js" />
