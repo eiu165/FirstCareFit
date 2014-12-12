@@ -285,7 +285,7 @@ header { background: #191919; }
 
 /* ABOUT US */
 #about {
-    text-align: center;
+  /* text-align: center;*/ 
 } 
 /*.about-text {
     background: url(../img/mat-bg.jpg) no-repeat center top white;
