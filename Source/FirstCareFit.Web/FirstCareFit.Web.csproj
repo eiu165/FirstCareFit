@@ -182,8 +182,12 @@
     <Content Include="css\images\pause.png" />
     <Content Include="css\images\play.png" />
     <Content Include="css\images\prev.png" />
+    <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="img\analyze-compare.jpg" />
+    <Content Include="img\apple-touch-icon-114x114.png" />
+    <Content Include="img\apple-touch-icon-72x72.png" />
+    <Content Include="img\apple-touch-icon.png" />
     <Content Include="img\Automatic-Fitness-Test - Copy.png" />
     <Content Include="img\Automatic-Fitness-Test.png" />
     <Content Include="img\bio-chart-oscar.jpg" />
@@ -194,6 +198,7 @@
     <Content Include="img\coach050athletes.png" />
     <Content Include="img\Dave.png" />
     <Content Include="img\down.png" />
+    <Content Include="img\fcfit-logo.png" />
     <Content Include="img\fit-lg-logo.jpg" />
     <Content Include="img\fit-sm-logo.jpg" />
     <Content Include="img\fit-tiny-logo.png" />
@@ -290,7 +295,6 @@
     <Content Include="Styles\Vendor\Bootstrap\bootstrap.css">
       <DependentUpon>bootstrap.scss</DependentUpon>
     </Content>
-    <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
