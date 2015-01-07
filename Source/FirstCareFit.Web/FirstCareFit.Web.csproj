@@ -229,6 +229,8 @@
     <Content Include="img\soccer-girl-norm-chart.JPG" />
     <Content Include="img\press-up.jpg" />
     <Content Include="img\start.jpg" />
+    <Content Include="img\step-1.jpg" />
+    <Content Include="img\step-3.jpg" />
     <Content Include="img\step-goal00.jpg" />
     <Content Include="img\steps-photo02.png" />
     <Content Include="img\steps-photo03.png" />
@@ -243,8 +245,6 @@
     <Content Include="Styles\css\lightbox.css" />
     <Content Include="Styles\css\socialcount.min.css" />
     <Content Include="Styles\css\YTPlayer.css" />
-    <Content Include="img\avatar%402x.png" />
-    <Content Include="img\avatar.png" />
     <Content Include="img\bg-pattern.png" />
     <Content Include="img\close.png" />
     <Content Include="img\laptop.png" />
