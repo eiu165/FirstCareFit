@@ -227,7 +227,7 @@ header { background: #191919; }
     }
 }
 /* HEADERS */
-.section-header { margin-bottom: 100px; }
+.section-header { margin-bottom: 50px; }
 .section-header h1, .section-header h2, .section-header h3, .section-header h4, .section-header h5, .section-header h6 { font-family: "Montserrat", sans-serif; color: #191919; text-align: center; text-transform: uppercase; }
 .section-header h1 span, .section-header h2 span, .section-header h3 span, .section-header h4 span, .section-header h5 span, .section-header h6 span { position: relative; }
 .section-header h1 span::before, .section-header h1 span::after, .section-header h2 span::before, .section-header h2 span::after, .section-header h3 span::before, .section-header h3 span::after, .section-header h4 span::before, .section-header h4 span::after, .section-header h5 span::before, .section-header h5 span::after, .section-header h6 span::before, .section-header h6 span::after { position: absolute; width: 50px; border-bottom: 2px solid #b2b2b2; content: ""; }
@@ -666,7 +666,7 @@ footer .copyrights { display: block; margin-top: 10px; }
 
 /* FLEXSLIDER */
 .flexslider { background: transparent; /* border: 4px solid transparent; */ border: 0; margin: 0; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
-.flexslider .slides img { max-width: 100%; width: auto; }
+.flexslider .slides img { max-width: 100%; width: auto;margin-top:10px;margin-right: 12px; }
 
 .flex-direction-nav a { color: #191919; text-shadow: none; }
 .flex-direction-nav a::before { font: 40px FontAwesome; content: "\f104"; }
@@ -774,11 +774,11 @@ html[xmlns] .tweet_list { display: block; }
 .alert-info { color: #247fad; background-color: #d9edf7; }
 
 /* ICON BOX */
-.icon-box { *zoom: 1; margin-bottom: 35px; }
+.icon-box { *zoom: 1; margin-bottom: 20px; }
 .icon-box:after { content: ""; display: table; clear: both; }
 .icon-box i { float: left; font-size: 40px; color: #006400; }
 
-.icon-box-content { padding-left: 55px; display: block; }
+.icon-box-content { padding-left: 0px; display: block; }
 .icon-box-content h1, .icon-box-content h2, .icon-box-content h3, .icon-box-content h4, .icon-box-content h5, .icon-box-content h6 { margin-bottom: 10px; }
 
 /* SECTION INVERSE */
