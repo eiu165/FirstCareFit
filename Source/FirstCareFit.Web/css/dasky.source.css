@@ -256,6 +256,7 @@
 	position: absolute;
 	right: 0px;
 	top: 0px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.2);
 }
 .dsk-supported .dsk-info {
 	width: 450px;
@@ -314,6 +315,6 @@
 }
 @media screen and (max-width: 650px) {
   .dsk-supported {
-	  height: 400px;
+	/*  height: 400px;*/
   }
 }
