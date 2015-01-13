@@ -6,7 +6,7 @@
 	};
 
 	// TWITTER INIT
-	twitter();
+	// twitter();
 
 	// SLIDERS INIT
     $(window).load(function() {
@@ -351,7 +351,7 @@
 		$(".fit-vid").fitVids();
 	};
 
-	function twitter() {
+/*	function twitter() {
 	$('.tweet').tweet({
 		modpath: 'js/twitter/',
 		username: 'envato',
@@ -361,7 +361,7 @@
 		loading_text: 'loading twitter feed...',
 		template: "{text}{time}"
 	});
-	};
+	};*/
 
 	function homeBgPlayer() {
       $(".home-bg-player").mb_YTPlayer();

@@ -198,6 +198,7 @@
     <Content Include="img\Dave.png" />
     <Content Include="img\down.png" />
     <Content Include="img\fcfit-logo.png" />
+    <Content Include="img\first-frame.png" />
     <Content Include="img\fit-lg-logo.jpg" />
     <Content Include="img\fit-sm-logo.jpg" />
     <Content Include="img\fit-tiny-logo.png" />
@@ -288,8 +289,6 @@
     <Content Include="Styles\img\next.png" />
     <Content Include="Styles\img\prev.png" />
     <Content Include="Styles\style-blue.css" />
-    <Content Include="Styles\style-dark-colors.css" />
-    <Content Include="Styles\style-grey-colors.css" />
     <Content Include="Styles\style.css" />
     <Content Include="Styles\Vendor\Bootstrap\bootstrap.css">
       <DependentUpon>bootstrap.scss</DependentUpon>

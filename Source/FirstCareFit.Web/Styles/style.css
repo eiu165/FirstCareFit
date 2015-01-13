@@ -4,7 +4,7 @@
 @import url(../Styles/css/socialcount.min.css);
 @import url(../Styles/css/YTPlayer.css);
 /* IMPORTS */
-/* BASICS */
+/* BASICS from ANTE*/
 body { font-family: "Open Sans", Arial, Helvetica, sans-serif; font-size: 14px; line-height: 1.6em; background: white; color: #666666; }
 
 .page-container { overflow: hidden; }
@@ -157,7 +157,9 @@ img { max-width: 100%; }
 
 /* HOME */
 header { background: #191919; }
-
+#home .background-img {
+    background-image: url('../img/first-frame.png');
+}
 #home { height: 700px; background-attachment: fixed !important; background-size: cover !important; color: white; position: relative; margin: 0 auto; text-align: center; }
 #home .logo-home { text-align: center; padding: 100px 0 100px 0; }
 #home .home-bg-container { height: 100%; width: 100%; position: absolute; z-index: 1; background-size: cover; }
@@ -172,7 +174,7 @@ header { background: #191919; }
 .home-text { margin: auto; text-align: center; position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; }
 .home-text .big-text { font-family: "Montserrat", sans-serif; font-size: 120px; line-height: 100px; text-transform: uppercase; display: block; padding: 0 0 20px; width: 100%; margin: 0 auto; }
 .home-text .small-text { display: block; width: 100%; margin: 0 auto; font: 14px "Montserrat", sans-serif; text-transform: uppercase; color: #e6e6e6; }
-.home-text .home-text-header { font: italic 700 28px "Open Sans", Arial, Helvetica, sans-serif; display: inline-block; margin-bottom: 10px; }
+.home-text .home-text-header { font: italic 600 26px "Open Sans", Arial, Helvetica, sans-serif; display: inline-block; margin-bottom: 10px; }
 
 #home-slider { margin: 0; }
 #home-slider .flex-control-nav { bottom: -60px; }
@@ -285,12 +287,7 @@ header { background: #191919; }
 
 /* ABOUT US */
 #about {
-  /* text-align: center;*/ 
-} 
-/*.about-text {
-    background: url(../img/mat-bg.jpg) no-repeat center top white;
-    position: relative;
-}*/
+}
 
 /* STORY */
 #story {
@@ -386,7 +383,7 @@ background-size:cover;
 .lb-outerContainer, .lightbox .lb-image { -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
 
 /* BLOG */
-/* LATEST POSTS */
+/* LATEST POSTS 
 .latest-post-item h1, .latest-post-item h2, .latest-post-item h3, .latest-post-item h4, .latest-post-item h5, .latest-post-item h6 { margin-bottom: 3px; color: #191919; }
 .latest-post-item p { margin: 20px 0 10px 0; }
 .latest-post-item img { width: 100%; margin-bottom: 20px; }
@@ -443,7 +440,7 @@ background-size:cover;
 .comment-container .avatar img { max-width: 100%; width: 60px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; border-radius: 30px; }
 .comment-container .comment-box { display: inline-block; width: 90%; }
 .comment-container .comment-box .comment-author { color: #191919; }
-
+*/
 /* JPLAYER  */
 .jp-interface { position: relative; width: 100%; height: 70px; line-height: 70px; border: 2px solid #bfbfbf; }
 
