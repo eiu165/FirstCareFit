@@ -300,13 +300,7 @@ header { background: #191919; }
     background-size: 100% 100%;
 }
 
-/* STORY */
-#story {
-background: url('../img/mat-bg.jpg');
-background-size:cover;
-}
 
-#devices-section { background: url(); }
 
 /* TEAM */
 .team-member-big, .team-member-small { width: 100%; position: relative; text-align: center; }
@@ -630,7 +624,11 @@ footer .copyrights { display: block; margin-top: 10px; }
 
 .si-desc { border-top: 1px dashed #cccccc; padding: 15px; margin: 10px -15px -15px; }
 .section-diff .si-desc { border-top: 1px dashed #d9d9d9; }
-
+/*STORY*/
+#story {
+background: url('../img/mat-bg.jpg');
+background-size:cover;
+}
 .story-item { width: 100%; margin-bottom: 10px; position: relative; z-index: 10; *zoom: 1; }
 .story-item:after { content: ""; display: table; clear: both; }
 .story-item:nth-child(even) .story-item-content { float: right; padding-left: 30px; }
@@ -693,24 +691,6 @@ footer .copyrights { display: block; margin-top: 10px; }
 .testimonial blockquote small::before { content: ""; border-bottom: 2px solid #cccccc; width: 100%; position: absolute; left: 0; top: 0; }
 .testimonial blockquote small::after { font: 25px FontAwesome; content: "\f0d7"; position: absolute; top: -8px; left: 48.1%; color: #cccccc; }
 .testimonial blockquote small .author-avatar { width: 60px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; border-radius: 30px; margin: 0 auto 20px; }
-
-/* TWITTER */
-.tweet { text-align: center; }
-.tweet .tweet_list { zoom: 1; margin: 0; padding: 0; list-style: none; }
-.tweet .tweet_list > li { display: none; -webkit-backface-visibility: hidden; }
-.tweet .tweet_list img { display: block; }
-.tweet .tweet_list::after { content: "\0020"; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
-
-html[xmlns] .tweet_list { display: block; }
-
-* html .tweet_list { height: 1%; }
-
-.no-js .tweet_list > li:first-child { display: block; }
-
-.tweet_text { font: 300 20px/26px "Open Sans", Arial, Helvetica, sans-serif; color: #191919; display: block; margin: 0 auto 10px; width: 80%; }
-.tweet_text::before { content: "\f099"; font: 20px FontAwesome; display: block; margin-bottom: 20px; color: #006400; }
-
-.tweet_time { font: 13px "Montserrat", sans-serif; color: #999999; display: block; text-transform: uppercase; margin: 0 auto 20px; }
 
 /* PRICING TABLE */
 .pricing-table { text-align: center; }
@@ -847,7 +827,13 @@ html[xmlns] .tweet_list { display: block; }
 
 /* Fallback example for browsers that don't support 3D transforms (and no JS fallback) */
 .no-csstransforms3d .st-effect-2.st-menu-open .st-pusher, .no-js .st-effect-2.st-menu-open .st-pusher { padding-right: 300px; }
+/* STORY BACKGROUND */
 
+/* NUMBERS BACKGROUND 
+#numbers .section-bg-attached {
+background: url('../img/jiu-mat.jpg');
+background-size:cover;
+}*/
 @media (max-width: 991px) { .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 { margin-bottom: 50px; }
   .si-desc { margin: 30px -15px -15px; }
   .header-desc span { width: 50%; }
@@ -855,7 +841,7 @@ html[xmlns] .tweet_list { display: block; }
   .team-member-big p { display: none; }
   .team-member-big .team-member-overlay .social-icons a { height: 25px; width: 25px; padding: 6px; }
   .team-member-big, .team-member-small { margin-bottom: 40px; }
-  .devices { height: 400px; }
+ /* .devices { height: 400px; }*/
   .portfolio-item { width: 33.333%; }
   .sidebar { margin-top: 30px; }
   .jp-volume { width: 20%; }
