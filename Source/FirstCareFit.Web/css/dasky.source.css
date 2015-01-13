@@ -82,12 +82,11 @@
 }
 .dsk-supported .dsk-linewrapper {
 	height: 5px;
-	bottom: 20%;
 	width: 100%;
 	background: rgba(255,255,255,.3);
 	box-shadow: 0 1px rgba(255, 255, 255, 0.15) inset;
 	position: absolute;
-	bottom: 20%;
+	bottom: 25%;
 	color: #fff;
 }
 .dsk-supported .dsk-wrapper {
