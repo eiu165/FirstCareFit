@@ -625,7 +625,7 @@ footer .copyrights { display: block; margin-top: 10px; }
 .si-desc { border-top: 1px dashed #cccccc; padding: 15px; margin: 10px -15px -15px; }
 .section-diff .si-desc { border-top: 1px dashed #d9d9d9; }
 /*STORY*/
-#story {
+#story .section-bg-attached {
 background: url('../img/mat-bg.jpg');
 background-size:cover;
 }
