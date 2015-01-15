@@ -194,6 +194,7 @@
     <Content Include="img\bio-guard-chart.JPG" />
     <Content Include="img\bio-harness_shirts.png" />
     <Content Include="img\Bioharness3.png" />
+    <Content Include="img\breathing-rate.png" />
     <Content Include="img\coach050athletes.png" />
     <Content Include="img\Dave.png" />
     <Content Include="img\down.png" />
@@ -203,6 +204,8 @@
     <Content Include="img\fit-sm-logo.jpg" />
     <Content Include="img\fit-tiny-logo.png" />
     <Content Include="img\fitness-test.JPG" />
+    <Content Include="img\heart-rate-percent.png" />
+    <Content Include="img\heart-rate.png" />
     <Content Include="img\Imnisense-chart.JPG" />
     <Content Include="img\ji-05.jpg" />
     <Content Include="img\jiu-mat.jpg" />
@@ -219,6 +222,7 @@
     <Content Include="img\pause.png" />
     <Content Include="img\physio-normative.jpg" />
     <Content Include="img\play.png" />
+    <Content Include="img\posture.png" />
     <Content Include="img\progress-chart.JPG" />
     <Content Include="img\PSM-trainingECHO.png" />
     <Content Include="img\pullups-bg.jpg" />
