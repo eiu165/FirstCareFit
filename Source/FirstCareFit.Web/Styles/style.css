@@ -328,7 +328,7 @@ header { background: #191919; }
 
 .devices-nav { list-style: none; margin: 0; padding: 0; *zoom: 1; }
 .devices-nav:after { content: ""; display: table; clear: both; }
-.devices-nav li { float: left; width: 33%; text-align: center; }
+.devices-nav li { float: left; width: 33%; text-align: left; }
 .devices-nav li a { font: 14px "Montserrat", sans-serif; text-transform: uppercase; text-decoration: none; }
 .devices-nav li a i { font-size: 36px; display: block; width: 60px; margin: 0 auto 10px; height: 60px; padding: 12px 0px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; border-radius: 30px; border: 2px solid #191919; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
 .devices-nav li a:hover i { border: 2px solid #666666; }

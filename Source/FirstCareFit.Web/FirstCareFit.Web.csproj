@@ -184,6 +184,7 @@
     <Content Include="css\images\prev.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="img\active-level.png" />
     <Content Include="img\analyze-compare.jpg" />
     <Content Include="img\apple-touch-icon-114x114.png" />
     <Content Include="img\apple-touch-icon-72x72.png" />
@@ -204,9 +205,12 @@
     <Content Include="img\fit-sm-logo.jpg" />
     <Content Include="img\fit-tiny-logo.png" />
     <Content Include="img\fitness-test.JPG" />
+    <Content Include="img\heart-rate-confidence.png" />
     <Content Include="img\heart-rate-percent.png" />
     <Content Include="img\heart-rate.png" />
+    <Content Include="img\HRV.png" />
     <Content Include="img\Imnisense-chart.JPG" />
+    <Content Include="img\impact.png" />
     <Content Include="img\ji-05.jpg" />
     <Content Include="img\jiu-mat.jpg" />
     <Content Include="img\lift-weights.jpg" />
@@ -220,6 +224,8 @@
     <Content Include="img\otavio-up.jpg" />
     <Content Include="img\otavio02.jpg" />
     <Content Include="img\pause.png" />
+    <Content Include="img\physio-intensity-2.png" />
+    <Content Include="img\physio-intensity.png" />
     <Content Include="img\physio-normative.jpg" />
     <Content Include="img\play.png" />
     <Content Include="img\posture.png" />
@@ -229,6 +235,7 @@
     <Content Include="img\pullups1.jpg" />
     <Content Include="img\pullups2.jpg" />
     <Content Include="img\Reporting.png" />
+    <Content Include="img\ROG.png" />
     <Content Include="img\shoulder-press.jpg" />
     <Content Include="img\soccer-girl-norm-chart.JPG" />
     <Content Include="img\press-up.jpg" />
@@ -240,6 +247,8 @@
     <Content Include="img\steps-photo03.png" />
     <Content Include="img\steps-photo04.png" />
     <Content Include="img\steps-photo05.png" />
+    <Content Include="img\stress-level.png" />
+    <Content Include="img\stress.png" />
     <Content Include="img\up.png" />
     <Content Include="Workout.html" />
     <Content Include="js\dasky.js" />
