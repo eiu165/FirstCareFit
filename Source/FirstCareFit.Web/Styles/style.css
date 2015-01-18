@@ -601,7 +601,7 @@ footer .copyrights { display: block; margin-top: 10px; }
 /* STORY */
 .story { position: relative; padding: 50px 0px; }
 
-.timeline { position: absolute; width: 1px; left: 49.95%; border-right: 2px solid #d9d9d9; height: 100%; z-index: 5; top: 0px; }
+.timeline { position: absolute; width: 1px; left: 49.95%; border-right: 2px solid #bcbcbc; height: 100%; z-index: 5; top: 0px; }
 .timeline::before, .timeline::after { content: ""; left: -5px; width: 12px; height: 12px; background: #d9d9d9; position: absolute; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; }
 .timeline::before { top: 0px; }
 .timeline::after { bottom: 0px; }
@@ -687,7 +687,8 @@ background-size:cover;
 /* TESTIMONIALS */
 .testimonial { text-align: center; }
 .testimonial blockquote p { width: 80%; margin: 0 auto 35px; }
-.testimonial blockquote small { width: 30%; margin: 0 auto; position: relative; padding-top: 35px; }
+.section-inverse .blockquote small {color: #ffffff;}
+.testimonial blockquote small { width: 30%; margin: 0 auto; position: relative; color:rgba(0, 0, 0, 0.1); padding-top: 35px; }
 .testimonial blockquote small::before { content: ""; border-bottom: 2px solid #cccccc; width: 100%; position: absolute; left: 0; top: 0; }
 .testimonial blockquote small::after { font: 25px FontAwesome; content: "\f0d7"; position: absolute; top: -8px; left: 48.1%; color: #cccccc; }
 .testimonial blockquote small .author-avatar { width: 60px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; border-radius: 30px; margin: 0 auto 20px; }
@@ -739,13 +740,13 @@ background-size:cover;
 .panel-heading { padding: 0; }
 .panel-heading a { padding: 15px 20px; display: block; font: 14px "Montserrat", sans-serif; text-transform: uppercase; text-decoration: none; }
 
-.panel-default > .panel-heading { background: #f2f2f2; color: #191919; }
+.panel-default > .panel-heading { background: #e4e4e4; color: #191919; }
 .section-diff .panel-default > .panel-heading { background: white; }
 
 .panel-default > .panel-heading + .panel-collapse .panel-body { border-top: 1px dashed #d9d9d9; }
 
 /* PROGRESS BAR */
-.progress { height: 30px; margin-bottom: 15px; background-color: #f2f2f2; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
+.progress { height: 30px; margin-bottom: 15px; background-color: #e4e4e4; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; }
 .section-diff .progress { background-color: white; }
 
 .progress-bar { font: 13px "Montserrat", sans-serif; line-height: 30px; text-transform: uppercase; color: white; text-align: left; background-color: #006400; -webkit-box-shadow: none; -moz-box-shadow: none; box-shadow: none; padding: 0px 10px; }
@@ -770,7 +771,7 @@ background-size:cover;
 .icon-box-content h1, .icon-box-content h2, .icon-box-content h3, .icon-box-content h4, .icon-box-content h5, .icon-box-content h6 { margin-bottom: 10px; }
 
 /* SECTION INVERSE */
-.section-inverse { background: #191919; color: white; }
+.section-inverse { background: #e4e4e4; color: white; }
 .section-inverse .small-header, .section-inverse .count-number, .section-inverse .si-year, .section-inverse .si-header, .section-inverse h1, .section-inverse h2, .section-inverse h3, .section-inverse h4, .section-inverse h4 a, .section-inverse h5, .section-inverse h6, .section-inverse .service-header, .section-inverse .btn-link, .section-inverse .flex-direction-nav a, .section-inverse blockquote p, .section-inverse .tweet_text, .section-inverse .small-header span, .section-inverse .project-info span small, .section-inverse .project-nav ul li a:hover, .section-inverse a, .section-inverse input, .section-inverse textarea, .section-inverse .social-icons a:hover, .section-inverse .btn:hover, .section-inverse .btn:focus, .section-inverse .btn:active, .section-inverse .btn.active, .section-inverse .btn.disabled, .section-inverse .btn[disabled] { color: white !important; }
 .section-inverse .count-number { border-bottom: 2px solid white !important; }
 .section-inverse .flex-control-paging li a.flex-active, .section-inverse .pt-header a { background: white !important; }
@@ -782,7 +783,7 @@ background-size:cover;
 .section-inverse .goto-blog { border: 2px solid #b3b3b3 !important; }
 .section-inverse .count-header, .section-inverse .accent-color, .section-inverse .service-icon, .section-inverse blockquote small, .section-inverse .read-more-btn .btn-link, .section-inverse .tweet_text::before, .section-inverse .icon-box i, .section-inverse .devices-nav .flex-active a { color: #006400 !important; }
 .section-inverse .si-year::after, .section-inverse .pt-header .pt-popular { background: #006400 !important; }
-.section-inverse .small-header span { background: #191919; }
+.section-inverse .small-header span { background: #e4e4e4; }
 .section-inverse .devices-nav .flex-active a i, .section-inverse .devices-nav .flex-active a:hover i { border: 2px solid #006400 !important; }
 .section-inverse .pricing-table, .section-inverse .tab, .section-inverse .panel-group, .section-inverse .social-icons a { color: #666666 !important; }
 .section-inverse .pt-header a, .section-inverse .nav-tabs > li.active > a, .section-inverse .nav-tabs > li.active > a:hover, .section-inverse .nav-tabs > li.active > a:focus, .section-inverse .panel-heading a { color: #191919 !important; }
@@ -855,8 +856,8 @@ background-size:cover;
 @media (max-width: 767px) { .col-sm-1, .col-xs-1, .col-sm-2, .col-xs-2, .col-sm-3, .col-xs-3, .col-sm-4, .col-xs-4, .col-sm-5, .col-xs-5, .col-sm-6, .col-xs-6, .col-sm-7, .col-xs-7, .col-sm-8, .col-xs-8, .col-sm-9, .col-xs-9, .col-sm-10, .col-xs-10, .col-sm-11, .col-xs-11, .col-sm-12, .col-xs-12 { margin-bottom: 50px; }
   .story-item-content { width: 80%; }
   .si-year::after { display: none; }
-  .story-item:nth-child(even) .story-item-content .si-year { left: -30px; }
-  .story-item:nth-child(odd) .story-item-content .si-year { right: -30px; }
+  .story-item:nth-child(even) .story-item-content .si-year { left: -50px; }
+  .story-item:nth-child(odd) .story-item-content .si-year { right: -50px; }
   .si-desc { margin: 15px -15px -15px; }
   .bottom-gap, .resp-no-gap { margin-bottom: 0px; }
   .portfolio-item { width: 50%; }
