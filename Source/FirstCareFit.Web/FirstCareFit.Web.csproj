@@ -201,6 +201,7 @@
     <Content Include="img\down.png" />
     <Content Include="img\fcfit-logo.png" />
     <Content Include="img\first-frame.png" />
+    <Content Include="img\first-frame2.png" />
     <Content Include="img\fit-lg-logo.jpg" />
     <Content Include="img\fit-sm-logo.jpg" />
     <Content Include="img\fit-tiny-logo.png" />
@@ -251,7 +252,6 @@
     <Content Include="img\stress-level.png" />
     <Content Include="img\stress.png" />
     <Content Include="img\up.png" />
-    <Content Include="Workout.html" />
     <Content Include="js\dasky.js" />
     <Content Include="js\dasky.min.js" />
     <Content Include="js\jmpress.min.js" />

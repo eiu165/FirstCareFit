@@ -363,7 +363,7 @@
 	});
 	};*/
 
-	function homeBgPlayer() {
+    function homeBgPlayer() {
       $(".home-bg-player").mb_YTPlayer();
     };
 

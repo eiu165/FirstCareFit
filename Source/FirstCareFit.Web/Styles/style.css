@@ -158,7 +158,7 @@ img { max-width: 100%; }
 /* HOME */
 header { background: #191919; }
 #home .background-img {
-    background-image: url('../img/first-frame.png');
+    background-image: url('../img/first-frame2.png');
 }
 #home { height: 700px; background-attachment: fixed !important; background-size: cover !important; color: white; position: relative; margin: 0 auto; text-align: center; }
 #home .logo-home { text-align: center; padding: 100px 0 100px 0; }
@@ -387,65 +387,7 @@ header { background: #191919; }
 
 .lb-outerContainer, .lightbox .lb-image { -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
 
-/* BLOG */
-/* LATEST POSTS 
-.latest-post-item h1, .latest-post-item h2, .latest-post-item h3, .latest-post-item h4, .latest-post-item h5, .latest-post-item h6 { margin-bottom: 3px; color: #191919; }
-.latest-post-item p { margin: 20px 0 10px 0; }
-.latest-post-item img { width: 100%; margin-bottom: 20px; }
 
-.post-info { color: #b2b2b2; }
-
-.read-more-btn { text-align: right; }
-.read-more-btn a { color: #328a2e; }
-.read-more-btn a::after { font: 11px FontAwesome; content: "\2003\f054"; }
-
-.goto-blog { position: relative; border: 2px solid #bfbfbf; text-align: center; padding: 20px 0; }
-.goto-blog::before { font: 25px FontAwesome; content: "\f0d8"; position: absolute; top: -17px; left: 49%; color: #bfbfbf; }
-.goto-blog .btn { width: 25%; }
-.goto-blog .btn::after { font: 11px FontAwesome; content: "\f054"; padding-left: 7px; margin-bottom: 0; }
-
-.media-wrapper { margin-bottom: 20px; }
-
-.post-container { margin-bottom: 50px; padding-bottom: 50px; border-bottom: 1px solid #e6e6e6; }
-.post-container p { margin: 30px 0 10px 0; }
-.post-container blockquote p { margin: 0; }
-
-.post-header { position: relative; padding-left: 70px; }
-.post-header::before { font: 20px/48px FontAwesome; content: "\f02d"; position: absolute; height: 48px; width: 48px; background: #328a2e; color: white; left: 0; top: 0; text-align: center; }
-.video-post-format .post-header::before { content: "\f008"; }
-.slideshow-post-format .post-header::before { content: "\f03e"; }
-.audio-post-format .post-header::before { content: "\f001"; }
-.quote-post-format .post-header::before { content: "\f10e"; }
-.link-post-format .post-header::before { content: "\f0c1"; }
-.post-header h1, .post-header h2, .post-header h3, .post-header h4, .post-header h5, .post-header h6 { margin-bottom: 0px; }
-
-.quote-post-format h3::before, .quote-post-format h3::after { color: rgba(0, 0, 0, 0.5); }
-.quote-post-format h3::before { content: "\ab\0020"; }
-.quote-post-format h3::after { content: "\0020\bb"; }
-.quote-post-format .post-info::before { content: "\2014\0020"; }
-
-.link-post-format h3 a::after { color: rgba(0, 0, 0, 0.5); font: 20px FontAwesome; content: "\0020\f064"; }
-.link-post-format .post-info::before { content: "\2014\0020"; }
-
-.single-post { border-bottom: none; padding-bottom: 0; }
-
-.pagination { width: 100%; }
-
-.share-social { width: 100%; border: 2px solid #bfbfbf; margin-bottom: 50px; padding: 20px; }
-.share-social span { display: inline-block; }
-.share-social .socialcount { display: inline; margin: 0; font-size: 14px; margin-left: 10px; }
-.share-social .socialcount li, .share-social .socialcount .loading { min-width: 100px; -webkit-border-radius: 0px; -moz-border-radius: 0px; -ms-border-radius: 0px; -o-border-radius: 0px; border-radius: 0px; }
-.share-social .socialcount.like .facebook iframe { width: 74px; }
-
-.comments-container .commentlist { list-style: none; margin: 0 0 60px 0; padding: 0; }
-.comments-container .commentlist .children { list-style: none; padding: 0; margin: 0 0 0 10%; }
-
-.comment-container { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed #e6e6e6; }
-.comment-container .avatar { float: left; width: 10%; vertical-align: top; }
-.comment-container .avatar img { max-width: 100%; width: 60px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; border-radius: 30px; }
-.comment-container .comment-box { display: inline-block; width: 90%; }
-.comment-container .comment-box .comment-author { color: #191919; }
-*/
 /* JPLAYER  */
 .jp-interface { position: relative; width: 100%; height: 70px; line-height: 70px; border: 2px solid #bfbfbf; }
 
