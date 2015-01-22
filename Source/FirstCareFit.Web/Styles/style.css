@@ -803,5 +803,14 @@ background-size:cover;
   .goto-blog .btn { width: 50%; }
   .home-text .big-text { font-size: 60px; line-height: 50px; } 
    /* #about .section {padding: 40px 0;}*/
-
+}
+@media screen and (max-width: 650px) {
+    .devices-nav li {
+        width: 50%;
+        text-align: left;
+        line-height: 12px;
+        padding-bottom: 15px;
+     }
+    .devices-nav li a {font-size: 11px;}
+    .devices-nav li a active { background-color:green; }
 }
