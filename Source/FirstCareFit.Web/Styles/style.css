@@ -772,8 +772,7 @@ background-size:cover;
 background: url('../img/jiu-mat.jpg');
 background-size:cover;
 }*/
-@media (max-width: 991px) { .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 { margin-bottom: 50px; }
-  
+@media (max-width: 991px) { .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 { margin-bottom: 50px; } 
   .si-desc { margin: 30px -15px -15px; }
   .header-desc span { width: 50%; }
   .team-member-big:hover .team-member-overlay h5 { bottom: 55%; }
@@ -789,28 +788,93 @@ background-size:cover;
   #page-header .page-title h1 span::after, #page-header .page-title h2 span::after, #page-header .page-title h3 span::after, #page-header .page-title h4 span::after, #page-header .page-title h5 span::after, #page-header .page-title h6 span::after { border: none; }
   #page-header .header-desc span { width: 100%; }
   .bottom-gap, .resp-no-gap { margin-bottom: 0px; }
-  .home-text .big-text { font-size: 80px; line-height: 66.66667px; }
-  .trigger-fixed { position: absolute !important; } }
-@media (max-width: 767px) { .col-sm-1, .col-xs-1, .col-sm-2, .col-xs-2, .col-sm-3, .col-xs-3, .col-sm-4, .col-xs-4, .col-sm-5, .col-xs-5, .col-sm-6, .col-xs-6, .col-sm-7, .col-xs-7, .col-sm-8, .col-xs-8, .col-sm-9, .col-xs-9, .col-sm-10, .col-xs-10, .col-sm-11, .col-xs-11, .col-sm-12, .col-xs-12 { margin-bottom: 50px; }
-  .section-header { margin-bottom: 20px; }
-  .story-item-content { width: 80%; }
-  .si-year::after { display: none; }
-  .story-item:nth-child(even) .story-item-content .si-year { left: -50px; }
-  .story-item:nth-child(odd) .story-item-content .si-year { right: -50px; }
-  .si-desc { margin: 15px -15px -15px; }
-  .bottom-gap, .resp-no-gap { margin-bottom: 0px; }
-  .portfolio-item { width: 50%; }
-  .goto-blog .btn { width: 50%; }
-  .home-text .big-text { font-size: 60px; line-height: 50px; } 
-   /* #about .section {padding: 40px 0;}*/
+  .home-text .big-text { font-size: 80px; line-height: 66.66667px; } 
+ .trigger-fixed { position: absolute !important; } 
 }
-@media screen and (max-width: 650px) {
+
+@media screen and (max-width: 767px) {
+    .col-sm-1, .col-xs-1, .col-sm-2, .col-xs-2, .col-sm-3, .col-xs-3, .col-sm-4, .col-xs-4, .col-sm-5, .col-xs-5, .col-sm-6, .col-xs-6, .col-sm-7, .col-xs-7, .col-sm-8, .col-xs-8, .col-sm-9, .col-xs-9, .col-sm-10, .col-xs-10, .col-sm-11, .col-xs-11, .col-sm-12, .col-xs-12 {
+        margin-bottom: 50px;
+    }
+
+    .section-header {
+        margin-bottom: 20px;
+    }
+
+    .story-item-content {
+        width: 80%;
+    }
+
+    .si-year::after {
+        display: none;
+    }
+
+    .story-item:nth-child(even) .story-item-content .si-year {
+        left: -50px;
+    }
+
+    .story-item:nth-child(odd) .story-item-content .si-year {
+        right: -50px;
+    }
+
+    .si-desc {
+        margin: 15px -15px -15px;
+    }
+
+    .bottom-gap, .resp-no-gap {
+        margin-bottom: 0px;
+    }
+
+    .portfolio-item {
+        width: 50%;
+    }
+
+    .goto-blog .btn {
+        width: 50%;
+    }
+
+    .home-text .big-text {
+        font-size: 60px;
+        line-height: 50px;
+    }
+
+    .p-big-desc {
+        font-size: 20px;
+    }
+
+    #workout .header-desc span {
+        width: 100%;
+    }
+
     .devices-nav li {
         width: 50%;
         text-align: left;
         line-height: 12px;
         padding-bottom: 15px;
-     }
-    .devices-nav li a {font-size: 11px;}
-    .devices-nav li a active { background-color:green; }
+    }
+
+        .devices-nav li a {
+            font-size: 11px;
+        }
+
+            .devices-nav li a active {
+                background-color: green;
+            }
+    #dansky .dsk-supported .dsk-content {
+        left: -290px;
+    }
+}
+@media(max-width: 640px){
+     #dasky h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+     #dasky p {
+	color: #fff;
+	text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+	padding: 1px 0;
+}   
+     #dasky .disk-circle-title {
+        text-align: center;
+    }
 }

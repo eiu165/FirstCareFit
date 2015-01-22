@@ -313,6 +313,11 @@ left: -320px;
 	width:100%;
 	height:100%;
 }
+@media screen and (max-width: 767px) {
+    .dsk-supported .dsk-content {
+        left: -290px;
+    }
+}
 @media screen and (max-width: 650px) {
   .dsk-supported {
 	 height: 400px;
