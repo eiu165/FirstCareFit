@@ -190,6 +190,7 @@
     <Content Include="img\apple-touch-icon-72x72.png" />
     <Content Include="img\apple-touch-icon.png" />
     <Content Include="img\Automatic-Fitness-Test.png" />
+    <Content Include="img\bearcrawl.jpg" />
     <Content Include="img\bio-chart-oscar.jpg" />
     <Content Include="img\bio-chart-person-01.jpg" />
     <Content Include="img\bio-guard-chart.JPG" />
@@ -251,6 +252,7 @@
     <Content Include="img\steps-photo05.png" />
     <Content Include="img\stress-level.png" />
     <Content Include="img\stress.png" />
+    <Content Include="img\treadmill.png" />
     <Content Include="img\up.png" />
     <Content Include="js\dasky.js" />
     <Content Include="js\dasky.min.js" />
