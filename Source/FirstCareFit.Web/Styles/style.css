@@ -24,7 +24,7 @@ h4 { font-size: 20px; }
 
 h5 { font-size: 16px; }
 
-h6 { font-size: 13px; }
+h6 { font-size: 13px; line-height: 1.7em}
 
 blockquote { border: none; padding: 0 20px; margin: 0; }
 blockquote p { font: 300 20px/26px "Open Sans", Arial, Helvetica, sans-serif; color: #191919; }
@@ -245,7 +245,7 @@ header { background: #191919; }
 .section-header h6 span::before, .section-header h6 span::after { top: 8.5px; }
 .section-header .header-desc::before { content: ""; border-bottom: none; }
 
-.header-desc span { font: 300 16px/19px "Open Sans", Arial, Helvetica, sans-serif; color: #666666; width: 35%; text-align: center; display: block; margin: 0 auto; }
+.header-desc span { font: 400 16px/19px "Open Sans", Arial, Helvetica, sans-serif; color: #666666; width: 35%; text-align: center; display: block; margin: 0 auto; }
 .header-desc::before { content: ""; border-bottom: 2px solid #b2b2b2; position: absolute; width: 50px; left: 47.8%; top: 36px; }
 
 .sh-left h1, .sh-left h2, .sh-left h3, .sh-left h4, .sh-left h5, .sh-left h6 { text-align: left; }
@@ -328,7 +328,7 @@ header { background: #191919; }
 .devices-nav li a { font: 14px "Montserrat", sans-serif; text-transform: uppercase; text-decoration: none; }
 .devices-nav li a i { font-size: 36px; display: block; width: 60px; margin: 0 auto 10px; height: 60px; padding: 12px 0px; -webkit-border-radius: 30px; -moz-border-radius: 30px; -ms-border-radius: 30px; -o-border-radius: 30px; border-radius: 30px; border: 2px solid #191919; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
 .devices-nav li a:hover i { border: 2px solid #666666; }
-.devices-nav .flex-active a { color: #328a2e; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
+.devices-nav .flex-active a { color: #328a2e; font-weight:700; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; -o-transition: all 0.2s; transition: all 0.2s; }
 .devices-nav .flex-active a i, .devices-nav .flex-active a:hover i { color: #328a2e; border: 2px solid #328a2e; }
 
 /* PORTFOLIO */
@@ -706,7 +706,7 @@ background-size:cover;
 .icon-box i { float: left; font-size: 40px; color: #328a2e; }
 
 .icon-box-content { padding-left: 0px; display: block; }
-.icon-box-content h1, .icon-box-content h2, .icon-box-content h3, .icon-box-content h4, .icon-box-content h5, .icon-box-content h6 { margin-bottom: 10px; }
+.icon-box-content h1, .icon-box-content h2, .icon-box-content h3, .icon-box-content h4, .icon-box-content h5, .icon-box-content h6 { margin-bottom: 10px; color:#328a2e; font-weight:700 }
 
 /* SECTION INVERSE */
 .section-inverse { background: #e4e4e4; color: white; }

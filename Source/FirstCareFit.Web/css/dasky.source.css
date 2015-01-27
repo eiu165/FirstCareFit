@@ -314,8 +314,13 @@ left: -320px;
 	height:100%;
 }
 @media screen and (max-width: 767px) {
+    .dsk-supported {
+        margin:0 auto;
+    }
+    
     .dsk-supported .dsk-content {
-        left: -290px;
+        left: 0px;
+        
     }
 }
 @media screen and (max-width: 650px) {
