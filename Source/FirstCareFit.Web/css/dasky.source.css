@@ -1,13 +1,13 @@
 ﻿@charset "utf-8";
 .dsk-not-supported,.dsk-supported {
-	background: #c87e0f;
+	/*background: #c87e0f;
 	background: -moz-linear-gradient(-45deg, #c51717 0%, #ec981c 33%, #c87e0f 71%, #328a2e 91%);
 	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#c51717), color-stop(33%,#ec981c), color-stop(71%,#c87e0f), color-stop(91%,#328a2e));
 	background: -webkit-linear-gradient(-45deg, #c51717 0%, #ec981c 33%, #c87e0f 71%, #328a2e 91%);
 	background: -o-linear-gradient(-45deg, #c51717 0%, #ec981c 33%, #c87e0f 71%, #328a2e 91%);
 	background: -ms-linear-gradient(-45deg, #c51717 0%, #ec981c 33%, #c87e0f 71%, #328a2e 91%);
 	background: linear-gradient(135deg, #c51717 0%, #ec981c 33%, #c87e0f 71%, #328a2e 91%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c51717', endColorstr='#328a2e',GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c51717', endColorstr='#328a2e',GradientType=1 );*/
 	-webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	background-size: 100% 100%;
@@ -73,12 +73,12 @@
 	margin: 20px 0 15px 0;
 }
 .dsk-supported {
-	position: relative;
-	width:100%;
-	min-width: 100px;
-	margin: 0 auto;
-	height:800px;
-	overflow: hidden;
+    height: 550px;
+    margin: 0 auto;
+    min-width: 100px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
 }
 .dsk-supported .dsk-linewrapper {
 	height: 5px;
@@ -219,10 +219,10 @@
 }
 .dsk-supported .dsk-content {
 position: absolute;
-top: -320px;
+top: -350px;
 height: 300px;
 width: 800px;
-left: -320px;
+left: -250px;
 	opacity: 0;
 	-webkit-transition: all 0.5s ease-in;
 	-moz-transition: all 0.5s ease-in;
@@ -319,7 +319,7 @@ left: -320px;
     }
     
     .dsk-supported .dsk-content {
-        left: 0px;
+        left: 10px;
         
     }
 }
