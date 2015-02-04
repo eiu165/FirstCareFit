@@ -833,37 +833,28 @@ background-size:cover;
     .goto-blog .btn {
         width: 50%;
     }
-
     .home-text .big-text {
         font-size: 60px;
         line-height: 50px;
     }
-
     .p-big-desc {
         font-size: 20px;
     }
-
     #workout .header-desc span {
         width: 100%;
     }
-
     .devices-nav li {
         width: 50%;
         text-align: left;
         line-height: 12px;
         padding-bottom: 15px;
     }
-
         .devices-nav li a {
             font-size: 11px;
         }
-
             .devices-nav li a active {
                 background-color: green;
             }
-    #dansky .dsk-supported .dsk-content {
-        left: -290px;
-    }
 }
 @media(max-width: 640px){
      #dasky h2 {
@@ -874,6 +865,7 @@ background-size:cover;
 	color: #fff;
 	text-shadow: 1px 1px 0px rgba(0,0,0,.2);
 	padding: 1px 0;
+    font-size:14px;
 }   
      #dasky .disk-circle-title {
         text-align: center;
