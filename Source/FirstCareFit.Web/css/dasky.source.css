@@ -269,7 +269,8 @@ left: -250px;
 }
 .dsk-supported .dsk-info p {
 	line-height: 1.8em;
-	font-size: 15px;
+	font-size: 18px;
+    font-weight: 600;
 	margin: 0;
 }
 .dsk-supported .dsk-link {
@@ -280,6 +281,7 @@ left: -250px;
 	box-shadow: 0 1px rgba(255, 255, 255, 0.15) inset;
 	border: none;
 	font-size: 14px;
+    font-weight: 700;
 	padding: 6px 10px;
 	border-radius: 3px;
 	display: inline-block;

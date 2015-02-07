@@ -27,13 +27,13 @@
     <link rel="stylesheet" type="text/css" href="~/Styles/style.css">
     <script src="~/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
  
-    <style type="text/css">
-    /*    .dsk-supported .dsk-content {
+    <!--  <style type="text/css">
+      .dsk-supported .dsk-content {
     height: 500px;
     left: -220px;
-    top: -380px; change for phone
+    top: -380px; 
     width: 800px;
-} */
+    } 
   #first-frame {
          min-width: 100%;
          min-height: 100%;
@@ -41,8 +41,8 @@
          height: auto;
          background: url('../../img/first-frame2.png')no-repeat;
          background-size: cover;
-     }       
- </style>
+     }      
+ </style> -->
 </head>
 <body>
     <!-- PAGE LOADER -->
@@ -101,10 +101,9 @@
                     <header data-scroll-index="0">
                         <!-- HOME FULLSCREEN -->
                         <div id="home" class="home-fullscreen " data-100="opacity:1" data-500="opacity:0.5">
-                            <div  class="home-bg-container ">
-                                <div id ="first-frame"></div>
-                                <video id="bgndVideo" class="home-bg-player" data-property="{videoURL:'http://youtu.be/m4dlJS781cM',containment:'.home-bg-container', quality: 'hd720', showControls: false, showInfo: false, autoPlay:true, mute:true, startAt:0, opacity:1}"></video>
-
+                            <div  class="home-bg-container ">                                
+                            <!--   <video id="bgndVideo" class="home-bg-player" data-property="{videoURL:'http://youtu.be/m4dlJS781cM',containment:'.home-bg-container', quality: 'hd720', showControls: false, showInfo: false, autoPlay:true, mute:true, startAt:0, opacity:1}"></video>
+--> 
                             </div>
                             <div class="overlay">
                                 <div class="home-content">
@@ -166,60 +165,44 @@
                                     <h1>
                                         <span>First Care fit</span>
                                     </h1>
+                                    <h5 class="small-header sh-center">
+                                        Your fitness is much more than your <em>heart rate</em>.
+                                        <br /><br />
+                                        <iframe class="tscplayer_inline embeddedObject" name="tsc_player" scrolling="no" frameborder="0" type="text/html" style="overflow:hidden;" src="http://www.screencast.com/users/toscatech/folders/fit/media/4f3f502d-7b15-46db-9bc8-313437b0977f/embed" height="292" width="876" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+                                    </h5>                                    
                                 </div>
                                 <div id="dasky">
-                                    <div class="step year">
+                                 <!--   <div class="step year">
                                         <div class="dsk-titlenode">  </div>
                                         <div class="dsk-content" style="">
                                             
                                             <p class="dsk-year-info">
-                                                <img src="~/img/run-squat-situp-lift.png" />
-                                             <!--   <iframe src="//player.vimeo.com/video/117553800?autoplay=1&amp;title=0&amp;byline=0&amp;portrait=0" width="265" height="292" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                                          -->  </p>
-                                        </div>
-                                    </div>
-                                    <!-- first node start 
-                                    <div id="fcfit" class="step">
-                                        <div class="dsk-circle"></div>
-                                        <h2 class="dsk-circle-title">FCfit</h2>
-                                        <div class="dsk-content">
-                                            <img src="~/img/fitness-test.JPG" />-->
-                                       <!--     <p class="dsk-info text-left" style="margin-top:0px; left:-40px">
-                                                 </p>
-                                            <div style="position: absolute; right:-20px;top:15%;width:380px">
-                                                <div class="dsk-info">
-                                                    <p>
-                                                        Your fitness is much more than your heart rate.<br /><br />
-                                                        'Live' monitoring of fitness beyond heart rate, and generated customized reports and analysis, are used to fine tune peak performance workouts towards 'goal' - quick, safe and strong.
-
-                                                        </p>
-                                                </div>
-                                            </div>
+                                            <img src="~/img/run-squat-situp-lift.png" />
+                                                </p>
                                         </div>
                                     </div>-->
-
-                                    <!-- normal node start-->
+                                    
                                     <div id="set-goal" class="step">
                                         <div class="dsk-circle">0</div>
                                         <h2 class="dsk-circle-title">What is your Goal?</h2>
                                         <div class="dsk-content">
-                                            <div class="dsk-info">
-                                              
+                                            <div class="dsk-info">                                                
                                                 <h4>
                                                     "Citius, Altius, Fortius"<br />
                                                     "Faster, Higher, Stronger"
                                                 </h4>
                                                  <p>
                                                      Your fitness is much more than your <em>heart rate</em>.
-                                                     Use all of your physiological data and safe training progress for goal success.
-
-                                                    <!--Do you want to win your meet? run a marathon? take your game to the highest level?-->
-                                                </p>
+                                                     Use all of your physiological data to reach your workout and training goal.
+                                                 </p>
                                             </div>
-                                            <a href="#goals" class="dsk-link">Read More</a>
-                                            <iframe src="//player.vimeo.com/video/114101946?portrait=0&title=0&byline=0&color=333" width="300" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+                                            <a href="#goals" class="dsk-link">Read More</a> 
+                                            <p>
+                                             Do you want to win your meet? run a marathon? take your game to the highest level?
+                                            </p>
+                                            <img src="~/img/treadmill.png" />
                                         </div>
+                                       
                                     </div>
 
                                     <div id="baseline" class="step">
@@ -263,7 +246,7 @@
                                                   Use technology to establish where you are and to compare your live readings to balance your Training Load.    
                                                 </p>
                                             </div>
-                                            <a href="#results" class="dsk-link">Read More</a>
+                                            <a href="#results" class="dsk-link">Learn More</a>
                                             <img src="~/img/step-1.jpg" alt="analyze and compare biometric data" />
                                         </div>
                                     </div>
@@ -273,7 +256,7 @@
                                         <h2 class="dsk-circle-title">Goal Success</h2>
                                         <div class="dsk-content">
                                             <div class="dsk-info">
-                                                <h4>'What keeps me going is goals'</h4><h6 class="text-right"> _Muhammad Ali</h6><br />
+                                                <h4>"What keeps me going is goals"</h4><h6 class="text-right">Muhammad Ali</h6><br />
                                                 <p>Using science and your own body to understand your fitness level, you can optimize your routines to get the max out of your workouts.</p><br />
                                                 <p>
                                                     <i>Perform stronger towards your GOAL</i>
@@ -310,7 +293,7 @@
                                     </div>
                                     <div class="col-sm-6">
                                         <p class="text-left" style="color:black">
-                                            <img src="~/img/mtn-biking.png" />
+                                            <img src="~/img/mtn-bike.png" />
                                           </p>  
                                      </div>
                                 </div>
@@ -1423,8 +1406,15 @@
     <script src="~/js/lightbox-2.6.min.js" type="text/javascript"></script>
     <!--<script src="/js/retina-1.1.0.min.js"></script>-->
     <script src="~/js/jquery.fitvids.js" type="text/javascript"></script>    
-  <!--  <script src="~/js/twitter/jquery.tweet.js" type="text/javascript"></script>-->
-  <script src="~/js/jquery.mb.YTPlayer.js" type="text/javascript"></script>
+  <!--  <script src="~/js/twitter/jquery.tweet.js" type="text/javascript"></script>
+  <script src="~/js/jquery.mb.YTPlayer.js" type="text/javascript"></script>-->
+    <script src="~/js/jmpress.min.js" type="text/javascript"></script>
+    <script src="~/js/dasky.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#dasky').Dasky({ nav: true, interval: 8000, autoplay: true, fullscreen: false, keyboard: false, mousewheel: true });
+        });
+    </script>
     <script src="~/js/main.js" type="text/javascript"></script>
     
     <!--  <script type="text/javascript">
@@ -1451,12 +1441,6 @@
     });
     </script>-->
 
-    <script src="~/js/jmpress.min.js" type="text/javascript"></script>
-    <script src="~/js/dasky.min.js" type="text/javascript"></script>
-    <script type="text/javascript">
-      $(function () {
-        $('#dasky').Dasky({ nav: true, interval:8000, autoplay: true, fullscreen: false, keyboard: false, mousewheel: true });
-      });
-    </script>
+   
 </body>
 </html>

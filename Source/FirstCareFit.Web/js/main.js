@@ -361,11 +361,11 @@
 		loading_text: 'loading twitter feed...',
 		template: "{text}{time}"
 	});
-	};*/
+	};
 
     function homeBgPlayer() {
       $(".home-bg-player").mb_YTPlayer();
-    };
+    };*/
 
 
 	//Function Initializing
@@ -381,7 +381,7 @@
 	animations();
 	fitVid();
 	navBarf();
-	homeBgPlayer();
+	/*homeBgPlayer();*/
 
 	if (!is_touch_device()) {
 		var s = skrollr.init();
