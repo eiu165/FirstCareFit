@@ -256,6 +256,7 @@
     <Content Include="img\stress.png" />
     <Content Include="img\treadmill.png" />
     <Content Include="img\up.png" />
+    <Content Include="img\win-race.jpg" />
     <Content Include="js\dasky.js" />
     <Content Include="js\dasky.min.js" />
     <Content Include="js\jmpress.min.js" />
