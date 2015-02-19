@@ -318,15 +318,13 @@ left: -250px;
 @media screen and (max-width: 767px) {
     .dsk-supported {
         margin:0 auto;
-    }
-    
+    }    
     .dsk-supported .dsk-content {
-        left: 10px;
-        
+    /*    left: 10px;*/        
     }
 }
 @media screen and (max-width: 650px) {
   .dsk-supported {
-	 height: 400px;
+	 height: 600px;
   }
 }
