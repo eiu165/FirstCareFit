@@ -265,13 +265,13 @@ function onYouTubePlayerAPIReady() {
 					var tag = jQuery("<script></script>").attr({"src":jQuery.mbYTPlayer.locationProtocol+"//www.youtube.com/player_api?v=" + jQuery.mbYTPlayer.version, "id": "YTAPI"});
 					jQuery("head title").after(tag);
 
-					/*
+					
 										var tag = document.createElement('script');
 										tag.src = jQuery.mbYTPlayer.locationProtocol+"//www.youtube.com/player_api";
 										tag.id = "YTAPI";
 										var firstScriptTag = document.getElementsByTagName('script')[0];
 										firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-					*/
+					
 
 				}else{
 					setTimeout(function(){

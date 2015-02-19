@@ -14,7 +14,7 @@ a:hover { color: #666666; text-decoration: none; }
 
 h1, h2, h3, h4, h5, h6 { font-family: "Montserrat", sans-serif; margin: 0 0 20px 0; color: #191919; text-transform: uppercase; line-height: 1.3em; }
 
-h1 { font-size: 40px; }
+h1 { font-size: 48px; }
 
 h2 { font-size: 30px; }
 
@@ -301,6 +301,18 @@ header { background: #191919; }
     -moz-background-size: 100% 100%;
     background-size: 100% 100%;
 }
+/*  VIDEO SCALE */
+.video-scale { position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%;}
+.video-scale iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0; top: 0;
+}
+
 /* TEAM */
 .team-member-big, .team-member-small { width: 100%; position: relative; text-align: center; }
 .team-member-big img, .team-member-small img { width: 100%; }
@@ -709,7 +721,7 @@ background-size:cover;
 .icon-box-content h1, .icon-box-content h2, .icon-box-content h3, .icon-box-content h4, .icon-box-content h5, .icon-box-content h6 { margin-bottom: 10px; color:#328a2e; font-weight:700 }
 
 /* SECTION INVERSE */
-.section-inverse { background: #e4e4e4; color: white; }
+.section-inverse { background: #eceaea; color: white; }
 .section-inverse .small-header, .section-inverse .count-number, .section-inverse .si-year, .section-inverse .si-header, .section-inverse h1, .section-inverse h2, .section-inverse h3, .section-inverse h4, .section-inverse h4 a, .section-inverse h5, .section-inverse h6, .section-inverse .service-header, .section-inverse .btn-link, .section-inverse .flex-direction-nav a, .section-inverse blockquote p, .section-inverse .tweet_text, .section-inverse .small-header span, .section-inverse .project-info span small, .section-inverse .project-nav ul li a:hover, .section-inverse a, .section-inverse input, .section-inverse textarea, .section-inverse .social-icons a:hover, .section-inverse .btn:hover, .section-inverse .btn:focus, .section-inverse .btn:active, .section-inverse .btn.active, .section-inverse .btn.disabled, .section-inverse .btn[disabled] { color: white !important; }
 .section-inverse .count-number { border-bottom: 2px solid white !important; }
 .section-inverse .flex-control-paging li a.flex-active, .section-inverse .pt-header a { background: white !important; }
