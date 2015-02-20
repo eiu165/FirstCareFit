@@ -318,24 +318,48 @@ left: -250px;
 @media screen and (max-width: 767px) {
     .dsk-supported {
         margin:0 auto;
-    }    
-    .dsk-supported .dsk-content {
-    /*    left: 10px;*/        
-    }
+    }        
 }
-@media screen and (max-width: 650px) {
-  .dsk-supported {
-	 height: 600px;
-  }
-}
-/*Saamsung Galazy S5*/
+/*Samsung Galaxy S5*/
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
 .dsk-supported {
-	 height: 500px;
+	 height: 300px;
   }
-.dsk-supported .dsk-content {
-   margin-left: 0px;
-   margin-right: 0px;
-
 }
+@media only screen and (max-width: 667px) {
+  .dsk-supported {
+	 height: 300px;
+  }
+  .dsk-not-supported .dsk-content{
+	 margin: 50px;
+  }
+    .dsk-not-supported .dsk-info h4,
+    .dsk-not-supported .dsk-info h2 {
+        font-size: smaller;
+    }
+     .dsk-not-supported{
+	 max-width: 300px;
+     margin: 0 auto;
+    }
+        .dsk-not-supported .dsk-circle {
+            background: #000;
+            padding: 7px;
+        }
+        .dsk-not-supported.dsk-info img {
+            max-width: 200px;
+        }
+  }
+@media only screen 
+    and (min-device-width : 375px) 
+    and (max-device-width : 667px) 
+    and (orientation : portrait) 
+    and (-webkit-min-device-pixel-ratio : 2)
+{.dsk-not-supported{
+	 max-width: 300px;
+     margin: 0 auto;
+    }
+        .dsk-not-supported .dsk-circle {
+            background: #000;
+            padding: 7px;
+} }
 
