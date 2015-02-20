@@ -328,3 +328,14 @@ left: -250px;
 	 height: 600px;
   }
 }
+/*Saamsung Galazy S5*/
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
+.dsk-supported {
+	 height: 500px;
+  }
+.dsk-supported .dsk-content {
+   margin-left: 0px;
+   margin-right: 0px;
+
+}
+
