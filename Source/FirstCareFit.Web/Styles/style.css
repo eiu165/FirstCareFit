@@ -176,6 +176,7 @@ header { background: #191919; }
 .home-text .big-text { font-family: "Montserrat", sans-serif; font-size: 100px; line-height: 100px; text-transform: uppercase; display: block; padding: 0 0 20px; width: 100%; margin: 0 auto; }
 .home-text .small-text { display: block; width: 100%; margin: 0 auto; font: 14px "Montserrat", sans-serif; text-transform: uppercase; color: #e6e6e6; }
 .home-text .home-text-header { font: italic 600 26px "Open Sans", Arial, Helvetica, sans-serif; display: inline-block; margin-bottom: 10px; }
+.home-text-header { font: italic 600 26px "Open Sans", Arial, Helvetica, sans-serif; display: inline-block; margin-bottom: 10px; }
 
 #home-slider { margin: 0; }
 #home-slider .flex-control-nav { bottom: -60px; }
