@@ -316,50 +316,46 @@ left: -250px;
 	height:100%;
 }
 @media screen and (max-width: 767px) {
-    .dsk-supported {
+    #dasky {
         margin:0 auto;
     }        
 }
-/*Samsung Galaxy S5*/
-@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
-.dsk-supported {
-	 height: 300px;
+@media only screen and (max-width: 415px) {
+  #dasky {
+	 margin-left: 10px;
+     margin-right: 10px;
   }
+    #dasky .step {
+       padding-top: 15px;
+    }
+    #dasky h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    #dasky h4 {
+        font-size: 18px;
+        text-align: center;
+    }
+    #dasky .dsk-circle {        
+         padding: 2px;
+         font-size: 40px;
+         font-weight: 700;
+         width: 44px;
+         padding: 30px;
+         text-shadow: 3px 3px 0px rgba(0,0,0,.7);
+        }           
+     #dasky p {
+	  color: #fff;
+	  text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+	  padding: 1px 0;
+      font-size:14px;
+      }     
+     #dasky img {
+       margin: 0 auto;
+       max-width: 250px;         
+      }
+    #dasky .dsk-link {
+        
+    }
 }
-@media only screen and (max-width: 667px) {
-  .dsk-supported {
-	 height: 300px;
-  }
-  .dsk-not-supported .dsk-content{
-	 margin: 50px;
-  }
-    .dsk-not-supported .dsk-info h4,
-    .dsk-not-supported .dsk-info h2 {
-        font-size: smaller;
-    }
-     .dsk-not-supported{
-	 max-width: 300px;
-     margin: 0 auto;
-    }
-        .dsk-not-supported .dsk-circle {
-            background: #000;
-            padding: 7px;
-        }
-        .dsk-not-supported.dsk-info img {
-            max-width: 200px;
-        }
-  }
-@media only screen 
-    and (min-device-width : 375px) 
-    and (max-device-width : 667px) 
-    and (orientation : portrait) 
-    and (-webkit-min-device-pixel-ratio : 2)
-{.dsk-not-supported{
-	 max-width: 300px;
-     margin: 0 auto;
-    }
-        .dsk-not-supported .dsk-circle {
-            background: #000;
-            padding: 7px;
-} }
 

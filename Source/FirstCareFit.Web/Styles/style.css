@@ -860,18 +860,4 @@ background-size:cover;
        background-color: green;
      }
 }
-@media(max-width: 640px){
-     #dasky h2 {
-        font-size: 22px;
-        text-align: center;
-    }
-     #dasky p {
-	color: #fff;
-	text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-	padding: 1px 0;
-    font-size:14px;
-    }   
-     #dasky .disk-circle-title {
-        text-align: center;
-    }
-}
+
