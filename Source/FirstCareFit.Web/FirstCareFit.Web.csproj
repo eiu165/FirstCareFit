@@ -184,6 +184,7 @@
     <Content Include="css\images\prev.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="home-video.html" />
     <Content Include="img\active-level.png" />
     <Content Include="img\analyze-compare.jpg" />
     <Content Include="img\apple-touch-icon-114x114.png" />
