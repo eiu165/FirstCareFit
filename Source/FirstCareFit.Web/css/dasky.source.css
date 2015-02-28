@@ -1,6 +1,6 @@
 ﻿@charset "utf-8";
 .dsk-not-supported,.dsk-supported {
-	/*background: #c87e0f;
+/*	background: #c87e0f;
 	background: -moz-linear-gradient(-45deg, #c51717 0%, #ec981c 33%, #c87e0f 71%, #328a2e 91%);
 	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#c51717), color-stop(33%,#ec981c), color-stop(71%,#c87e0f), color-stop(91%,#328a2e));
 	background: -webkit-linear-gradient(-45deg, #c51717 0%, #ec981c 33%, #c87e0f 71%, #328a2e 91%);
@@ -349,13 +349,19 @@ left: -250px;
 	  text-shadow: 1px 1px 0px rgba(0,0,0,.2);
 	  padding: 1px 0;
       font-size:14px;
-      }     
-     #dasky img {
-       margin: 0 auto;
-       max-width: 250px;         
       }
     #dasky .dsk-link {
-        
-    }
+        margin: 5px;
+    }    
+     #dasky .dsk-content{
+       text-align: center; 
+    } 
+     #dasky img {
+       margin: 15px;
+       max-width: 250px;         
+      }
+    #dasky .dsk-info {
+        text-align: left;
+    }    
 }
 

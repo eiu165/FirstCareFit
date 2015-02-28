@@ -105,14 +105,14 @@ function onYouTubePlayerAPIReady() {
 			vol                    :100,
 			addRaster              : false,
 			opacity                : 1,
-			quality                : "default", //or “small”, “medium”, “large”, “hd720”, “hd1080”, “highres”
+			quality                : "hd720", //or "default", “small”, “medium”, “large”, “hd720”, “hd1080”, “highres”
 			mute                   : false,
 			loop                   : true,
-			showControls           : true,
+			showControls           : false,
 			showAnnotations        : false,
 			printUrl               : true,
 			stopMovieOnClick       :false,
-			realfullscreen         :true,
+			realfullscreen         :false,
 			onReady                : function (player) {},
 			onStateChange          : function (player) {},
 			onPlaybackQualityChange: function (player) {},
@@ -138,7 +138,7 @@ function onYouTubePlayerAPIReady() {
 				var YTPlayer = this;
 				var $YTPlayer = jQuery(YTPlayer);
 
-				YTPlayer.loop = 0;
+				YTPlayer.loop = 1;
 				YTPlayer.opt = {};
 				var property = {};
 

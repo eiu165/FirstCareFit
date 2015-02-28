@@ -163,29 +163,29 @@ header { background: #191919; }
 }
 #home { height: 700px; background-attachment: fixed !important; background-size: cover !important; color: white; position: relative; margin: 0 auto; text-align: center; }
 #home .logo-home { text-align: center; padding: 100px 0 100px 0; }
-#home .home-bg-container { height: 100%; width: 100%; position: absolute; z-index: 1; background-size: cover; }
+#home .home-bg-container { height: 100%; width: 100%; position: absolute; z-index: 50; background-size: cover; }
 #home .overlay { position: relative; height: 100%; z-index: 2; background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(0, 0, 0, 0.1)), color-stop(80%, rgba(0, 0, 0, 0.1)), color-stop(100%, rgba(0, 0, 0, 0.4))); background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0.4) 100%); background-image: -moz-linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0.4) 100%); background-image: -o-linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0.4) 100%); background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.1) 80%, rgba(0, 0, 0, 0.4) 100%); }
 #home .home-more, #about .home-more, #goals .home-more, #workout .home-more, #numbers .home-more  { position: absolute; bottom: 70px; width: 100%; -webkit-animation: read-more 2s infinite; /* Safari 4+ */ -moz-animation: read-more 2s infinite; /* Fx 5+ */ -o-animation: read-more 2s infinite; /* Opera 12+ */ animation: read-more 2s infinite; /* IE 10+ */ }
 #home .home-more .btn, #about .home-more .btn, #numbers .home-more .btn, #goals .home-more .btn, #workout .home-more .btn { margin: 0 auto; }
 #home .home-more .btn::after, #about .home-more .btn::after, #goals .home-more .btn::after, #workout .home-more .btn::after, #numbers .home-more .btn::after { }
 .down-btn { position: absolute; bottom: 70px; -webkit-animation: read-more 2s infinite; /* Safari 4+ */ -moz-animation: read-more 2s infinite; /* Fx 5+ */ -o-animation: read-more 2s infinite; /* Opera 12+ */ animation: read-more 2s infinite; /* IE 10+ */
 }
-.home-content { position: relative; height: 100%; z-index: 3; }
+.home-content { position: relative; height: 100%; z-index: 4; }
 
 .home-text { margin: auto; text-align: center; position: absolute; top: 0; left: 0; bottom: 0; right: 0; width: 100%; }
 .home-text .big-text { font-family: "Montserrat", sans-serif; font-size: 100px; line-height: 100px; text-transform: uppercase; display: block; padding: 0 0 20px; width: 100%; margin: 0 auto; }
 .home-text .small-text { display: block; width: 100%; margin: 0 auto; font: 14px "Montserrat", sans-serif; text-transform: uppercase; color: #e6e6e6; }
 .home-text .home-text-header { font: italic 600 26px "Open Sans", Arial, Helvetica, sans-serif; display: inline-block; margin-bottom: 10px; }
 .home-text-header { font: italic 600 26px "Open Sans", Arial, Helvetica, sans-serif; display: inline-block; margin-bottom: 10px; }
-
+/*
 #home-slider { margin: 0; }
 #home-slider .flex-control-nav { bottom: -60px; }
 #home-slider .flex-control-paging li a.flex-active { background: white; }
 
 .home-slideshow-bg .slides, .home-slideshow-bg li { height: 100%; }
 .home-slideshow-bg li { background-size: cover !important; }
-/******  home-video *******/
-.home-video {
+*****  home-video *******/
+/*.home-video {
     position: absolute;
     left: 0;
     top: 0;
@@ -196,19 +196,19 @@ header { background: #191919; }
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 1;
+    z-index: ;
     width: 100%;
     height: 100%;
 }
 .home-video .overlay {
     position: absolute;
-    z-index: 2;
+    z-index: 0;
     left: 0;
     top: 0;
     width: 100%;
     height: 100%; 
     background-color: #000000;
-}
+}*/
 
 /* SECTIONS */
 .first-section { padding-top: 310px; }
