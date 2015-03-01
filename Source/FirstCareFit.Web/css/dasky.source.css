@@ -315,40 +315,31 @@ left: -250px;
 	width:100%;
 	height:100%;
 }
-@media screen and (max-width: 767px) {
-    #dasky {
-        margin:0 auto;
-    }        
-}
-@media only screen and (max-width: 415px) {
-  #dasky {
-	 margin-left: 10px;
-     margin-right: 10px;
-  }
+
+@media screen and (max-width: 390px) {
+
+   
     #dasky .step {
        padding-top: 15px;
     }
     #dasky h2 {
-        font-size: 22px;
+        font-size: 28px;
         text-align: center;
     }
     #dasky h4 {
-        font-size: 18px;
+        font-size: 24px;
         text-align: center;
     }
     #dasky .dsk-circle {        
-         padding: 2px;
          font-size: 40px;
          font-weight: 700;
-         width: 44px;
-         padding: 30px;
+         width: 48px;
          text-shadow: 3px 3px 0px rgba(0,0,0,.7);
         }           
-     #dasky p {
+     .dsk-not-supported p {
 	  color: #fff;
 	  text-shadow: 1px 1px 0px rgba(0,0,0,.2);
-	  padding: 1px 0;
-      font-size:14px;
+      font-size: 18px;
       }
     #dasky .dsk-link {
         margin: 5px;
@@ -357,11 +348,23 @@ left: -250px;
        text-align: center; 
     } 
      #dasky img {
-       margin: 15px;
+       margin: 10px;
        max-width: 250px;         
       }
     #dasky .dsk-info {
         text-align: left;
     }    
+     .dsk-supported {
+        top: 20px;
+        height: 450px;
+    }
+     .dsk-supported .dsk-content {
+           top: -600px;
+           height: 450px;
+        }
+       #dasky .dsk-supported .dsk-info p {
+            font-size: 24px;
+        } 
+   
 }
 
