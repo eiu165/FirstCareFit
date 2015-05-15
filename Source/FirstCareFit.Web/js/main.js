@@ -363,11 +363,11 @@
 	});
 	};
 */
-    function homeBgPlayer() {
+
+/*  function homeBgPlayer() {
       $(".home-bg-player").mb_YTPlayer();
     };
-
-
+   
 	//Function Initializing
 	homeHeight();
 	counting();
@@ -392,6 +392,7 @@
 			return false;
 		});
 	}
+    */
 
       
 	$(window).resize(function(){	

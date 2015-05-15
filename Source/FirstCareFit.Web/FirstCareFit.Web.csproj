@@ -184,7 +184,6 @@
     <Content Include="css\images\prev.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
-    <Content Include="home-video.html" />
     <Content Include="img\active-level.png" />
     <Content Include="img\analyze-compare.jpg" />
     <Content Include="img\apple-touch-icon-114x114.png" />
@@ -261,8 +260,9 @@
     <Content Include="js\dasky.js" />
     <Content Include="js\dasky.min.js" />
     <Content Include="js\jmpress.min.js" />
-    <Content Include="Styles\img\close.png" />
+    <Content Include="js\lightbox-2.6.min.js" />
     <Content Include="Styles\css\lightbox.css" />
+    <Content Include="Styles\img\close.png" />
     <Content Include="Styles\css\socialcount.min.css" />
     <Content Include="Styles\css\YTPlayer.css" />
     <Content Include="img\bg-pattern.png" />
@@ -279,15 +279,11 @@
     <Content Include="img\tablet.png" />
     <Content Include="js\classie.js" />
     <Content Include="js\isotope.pkgd.min.js" />
-    <Content Include="js\Jplayer.swf" />
     <Content Include="js\jquery-scrolltofixed-min.js" />
     <Content Include="js\jquery.countTo.js" />
     <Content Include="js\jquery.fitvids.js" />
     <Content Include="js\jquery.flexslider.js" />
-    <Content Include="js\jquery.jplayer.min.js" />
     <Content Include="js\jquery.label_better.min.js" />
-    <Content Include="js\jquery.mb.YTPlayer.js" />
-    <Content Include="js\lightbox-2.6.min.js" />
     <Content Include="js\main.js" />
     <Content Include="js\map.js" />
     <Content Include="js\retina-1.1.0.min.js" />
@@ -308,6 +304,7 @@
     <Content Include="Styles\img\loading.gif" />
     <Content Include="Styles\img\next.png" />
     <Content Include="Styles\img\prev.png" />
+    <Content Include="Styles\style - Copy.css" />
     <Content Include="Styles\style-blue.css" />
     <Content Include="Styles\style.css" />
     <Content Include="Styles\Vendor\Bootstrap\bootstrap.css">
