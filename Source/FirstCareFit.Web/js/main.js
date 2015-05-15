@@ -362,11 +362,11 @@
 		template: "{text}{time}"
 	});
 	};
-*/
 
-/*  function homeBgPlayer() {
+
+ function homeBgPlayer() {
       $(".home-bg-player").mb_YTPlayer();
-    };
+    };*/
    
 	//Function Initializing
 	homeHeight();
@@ -381,7 +381,7 @@
 	animations();
 	fitVid();
 	navBarf();
-	homeBgPlayer();
+	//homeBgPlayer();
 
 	if (!is_touch_device()) {
 		var s = skrollr.init();
@@ -392,7 +392,7 @@
 			return false;
 		});
 	}
-    */
+    
 
       
 	$(window).resize(function(){	
