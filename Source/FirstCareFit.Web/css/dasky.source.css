@@ -241,8 +241,7 @@ left: -250px;
 	-o-transition: all 1s ease-in-out .5s;
 	transition: all 1s ease-in-out .5s;
 }
-.dsk-supported .dsk-content>img,
-.dsk-supported .dsk-content>iframe
+.dsk-supported .dsk-content>img
  {
 	max-width: 256px;
 	max-height: 300px;
@@ -251,6 +250,14 @@ left: -250px;
 	top: 0px;
     box-shadow: 3px 3px 3px rgba(0,0,0,.2);
 }
+    .dsk-supported .dsk-content > iframe {
+        max-width:900px;
+        max-height:300px;
+        position: absolute;
+	right: 0px;
+	top: 0px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,.2);  
+    }
 .dsk-supported .dsk-info {
 	width: 450px;
 	text-shadow: 2px 2px 2px rgba(0,0,0,.2);
@@ -299,9 +306,14 @@ left: -250px;
     -o-transform:translateY(0px);
     transform:translateY(0px);
 }
-.dsk-supported .dsk-year-info {
+.dsk-supported .dsk-first-info {
 	font-size: 24px;
 	padding: 10px;
+    line-height: 34px;
+}
+.dsk-supported .dsk-first-img iframe{
+	width: 600px;
+	height: auto;
 }
 .dsk-fullscreen
 {
